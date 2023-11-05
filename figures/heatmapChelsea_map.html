@@ -1,0 +1,1495 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ad9d034b1207e7dc199eb6b4811ee69f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_ad9d034b1207e7dc199eb6b4811ee69f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_ad9d034b1207e7dc199eb6b4811ee69f = L.map(
+                "map_ad9d034b1207e7dc199eb6b4811ee69f",
+                {
+                    center: [40.7466077028232, -73.99981295686258],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 14,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9203086c24f3fbb66bb034ae054b637f = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_ad9d034b1207e7dc199eb6b4811ee69f);
+        
+    
+            var feature_group_116ba714e91dda0363d4bf98b20d623a = L.featureGroup(
+                {}
+            ).addTo(map_ad9d034b1207e7dc199eb6b4811ee69f);
+        
+    
+            var marker_24a4aaa4b29746de4f55fde70d66e9ed = L.marker(
+                [40.741623, -74.005316],
+                {}
+            ).addTo(feature_group_116ba714e91dda0363d4bf98b20d623a);
+        
+    
+            var icon_8854579992420e6e1055b7047be6b3da = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-coffee", "iconColor": "white", "markerColor": "darkgreen", "prefix": "fa"}
+            );
+            marker_24a4aaa4b29746de4f55fde70d66e9ed.setIcon(icon_8854579992420e6e1055b7047be6b3da);
+        
+    
+        var popup_aa1be273d0cae603992b3df33423c482 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f11abde20566d739dba3fb820631d1cd = $(`<div id="html_f11abde20566d739dba3fb820631d1cd" style="width: 100.0%; height: 100.0%;">Starbucks</div>`)[0];
+                popup_aa1be273d0cae603992b3df33423c482.setContent(html_f11abde20566d739dba3fb820631d1cd);
+            
+        
+
+        marker_24a4aaa4b29746de4f55fde70d66e9ed.bindPopup(popup_aa1be273d0cae603992b3df33423c482)
+        ;
+
+        
+    
+    
+            marker_24a4aaa4b29746de4f55fde70d66e9ed.bindTooltip(
+                `<div>
+                     ['Starbucks']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0c4a0247cd831814ccc55d2359026631 = L.marker(
+                [40.748932, -73.992459],
+                {}
+            ).addTo(feature_group_116ba714e91dda0363d4bf98b20d623a);
+        
+    
+            var icon_a8a39bc9996f62c4690a3dba476074c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-coffee", "iconColor": "white", "markerColor": "darkgreen", "prefix": "fa"}
+            );
+            marker_0c4a0247cd831814ccc55d2359026631.setIcon(icon_a8a39bc9996f62c4690a3dba476074c9);
+        
+    
+        var popup_52dab0564fa968cbf2ee6ed0f3fbd531 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cece5110d2661d8c85bcb65fce530cd2 = $(`<div id="html_cece5110d2661d8c85bcb65fce530cd2" style="width: 100.0%; height: 100.0%;">Starbucks</div>`)[0];
+                popup_52dab0564fa968cbf2ee6ed0f3fbd531.setContent(html_cece5110d2661d8c85bcb65fce530cd2);
+            
+        
+
+        marker_0c4a0247cd831814ccc55d2359026631.bindPopup(popup_52dab0564fa968cbf2ee6ed0f3fbd531)
+        ;
+
+        
+    
+    
+            marker_0c4a0247cd831814ccc55d2359026631.bindTooltip(
+                `<div>
+                     ['Starbucks']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aa95eb50f2faa3378f6491be469fb07c = L.marker(
+                [40.741623, -74.005316],
+                {}
+            ).addTo(feature_group_116ba714e91dda0363d4bf98b20d623a);
+        
+    
+            var icon_7462dedf244b1dbcb618abf6f59ab6d8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-coffee", "iconColor": "white", "markerColor": "darkgreen", "prefix": "fa"}
+            );
+            marker_aa95eb50f2faa3378f6491be469fb07c.setIcon(icon_7462dedf244b1dbcb618abf6f59ab6d8);
+        
+    
+        var popup_375869b0c14274e9b009114221176f3e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ee89e3533b5ced307e72893299ed308 = $(`<div id="html_1ee89e3533b5ced307e72893299ed308" style="width: 100.0%; height: 100.0%;">Starbucks</div>`)[0];
+                popup_375869b0c14274e9b009114221176f3e.setContent(html_1ee89e3533b5ced307e72893299ed308);
+            
+        
+
+        marker_aa95eb50f2faa3378f6491be469fb07c.bindPopup(popup_375869b0c14274e9b009114221176f3e)
+        ;
+
+        
+    
+    
+            marker_aa95eb50f2faa3378f6491be469fb07c.bindTooltip(
+                `<div>
+                     ['Starbucks']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4f7131dacf232252dbafa7223de59439 = L.marker(
+                [40.749124, -73.991375],
+                {}
+            ).addTo(feature_group_116ba714e91dda0363d4bf98b20d623a);
+        
+    
+            var icon_31dbfd4e9176cb6576b91f6b9c775f43 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-coffee", "iconColor": "white", "markerColor": "darkgreen", "prefix": "fa"}
+            );
+            marker_4f7131dacf232252dbafa7223de59439.setIcon(icon_31dbfd4e9176cb6576b91f6b9c775f43);
+        
+    
+        var popup_048aabd973df3cae492e59a15108011f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1065b8dfb548747db3fd5da57186de2a = $(`<div id="html_1065b8dfb548747db3fd5da57186de2a" style="width: 100.0%; height: 100.0%;">Starbucks</div>`)[0];
+                popup_048aabd973df3cae492e59a15108011f.setContent(html_1065b8dfb548747db3fd5da57186de2a);
+            
+        
+
+        marker_4f7131dacf232252dbafa7223de59439.bindPopup(popup_048aabd973df3cae492e59a15108011f)
+        ;
+
+        
+    
+    
+            marker_4f7131dacf232252dbafa7223de59439.bindTooltip(
+                `<div>
+                     ['Starbucks']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_b41db6ec66e0a42b7fcede32e20c5532 = L.featureGroup(
+                {}
+            ).addTo(map_ad9d034b1207e7dc199eb6b4811ee69f);
+        
+    
+            var marker_1dab0b82f29f2fde890afa9c02a541c6 = L.marker(
+                [40.750561, -73.993231],
+                {}
+            ).addTo(feature_group_b41db6ec66e0a42b7fcede32e20c5532);
+        
+    
+            var icon_33935fa1de63b7d15885e91d25415fd6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-trophy", "iconColor": "white", "markerColor": "darkpurple", "prefix": "fa"}
+            );
+            marker_1dab0b82f29f2fde890afa9c02a541c6.setIcon(icon_33935fa1de63b7d15885e91d25415fd6);
+        
+    
+        var popup_d9d54751e3d3a389bad5552a2d71216c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_75b78be2674df8920b8bd652a1148278 = $(`<div id="html_75b78be2674df8920b8bd652a1148278" style="width: 100.0%; height: 100.0%;">Madison Square Garden</div>`)[0];
+                popup_d9d54751e3d3a389bad5552a2d71216c.setContent(html_75b78be2674df8920b8bd652a1148278);
+            
+        
+
+        marker_1dab0b82f29f2fde890afa9c02a541c6.bindPopup(popup_d9d54751e3d3a389bad5552a2d71216c)
+        ;
+
+        
+    
+    
+            var marker_e8a72b4ab96a4bcfecf67c35fda0defd = L.marker(
+                [40.750233, -73.992248],
+                {}
+            ).addTo(feature_group_b41db6ec66e0a42b7fcede32e20c5532);
+        
+    
+            var icon_2024b4ff14c311c4862a276c4a2d48a7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-trophy", "iconColor": "white", "markerColor": "darkpurple", "prefix": "fa"}
+            );
+            marker_e8a72b4ab96a4bcfecf67c35fda0defd.setIcon(icon_2024b4ff14c311c4862a276c4a2d48a7);
+        
+    
+        var popup_0f820fd961e936ebd56f00184e561159 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_170e9591c2f09d9959c771d2b240dfcc = $(`<div id="html_170e9591c2f09d9959c771d2b240dfcc" style="width: 100.0%; height: 100.0%;">Knicks Conference Room</div>`)[0];
+                popup_0f820fd961e936ebd56f00184e561159.setContent(html_170e9591c2f09d9959c771d2b240dfcc);
+            
+        
+
+        marker_e8a72b4ab96a4bcfecf67c35fda0defd.bindPopup(popup_0f820fd961e936ebd56f00184e561159)
+        ;
+
+        
+    
+    
+            var marker_0a54406a661b5139728edefefff16ce3 = L.marker(
+                [40.750233, -73.992248],
+                {}
+            ).addTo(feature_group_b41db6ec66e0a42b7fcede32e20c5532);
+        
+    
+            var icon_32362efbfe3c0037edd9604692541bf5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-trophy", "iconColor": "white", "markerColor": "darkpurple", "prefix": "fa"}
+            );
+            marker_0a54406a661b5139728edefefff16ce3.setIcon(icon_32362efbfe3c0037edd9604692541bf5);
+        
+    
+        var popup_29c1bb8ccb1e0f60840b084328a0315f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ddf34802f48c7d0c528c6069e529c526 = $(`<div id="html_ddf34802f48c7d0c528c6069e529c526" style="width: 100.0%; height: 100.0%;">Knicks Conference Room</div>`)[0];
+                popup_29c1bb8ccb1e0f60840b084328a0315f.setContent(html_ddf34802f48c7d0c528c6069e529c526);
+            
+        
+
+        marker_0a54406a661b5139728edefefff16ce3.bindPopup(popup_29c1bb8ccb1e0f60840b084328a0315f)
+        ;
+
+        
+    
+    
+            var marker_f445413a3c9c0f9d9e6f2b92843894da = L.marker(
+                [40.750561, -73.993231],
+                {}
+            ).addTo(feature_group_b41db6ec66e0a42b7fcede32e20c5532);
+        
+    
+            var icon_f61fbe5d84d55579b44165aa5bc4b921 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-trophy", "iconColor": "white", "markerColor": "darkpurple", "prefix": "fa"}
+            );
+            marker_f445413a3c9c0f9d9e6f2b92843894da.setIcon(icon_f61fbe5d84d55579b44165aa5bc4b921);
+        
+    
+        var popup_92fb52d767db07b597291b17adeddb65 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f523defd46beddb3512df6231174a469 = $(`<div id="html_f523defd46beddb3512df6231174a469" style="width: 100.0%; height: 100.0%;">Madison Square Garden</div>`)[0];
+                popup_92fb52d767db07b597291b17adeddb65.setContent(html_f523defd46beddb3512df6231174a469);
+            
+        
+
+        marker_f445413a3c9c0f9d9e6f2b92843894da.bindPopup(popup_92fb52d767db07b597291b17adeddb65)
+        ;
+
+        
+    
+    
+            var feature_group_e74bde54514c348a1984012723be9eec = L.featureGroup(
+                {}
+            ).addTo(map_ad9d034b1207e7dc199eb6b4811ee69f);
+        
+    
+            var feature_group_686f407fa081722c88cd88b9c3f5616f = L.featureGroup(
+                {}
+            ).addTo(map_ad9d034b1207e7dc199eb6b4811ee69f);
+        
+    
+            var marker_0c7a52b56e10847a0dc675a1a0657b61 = L.marker(
+                [40.751476, -73.992166],
+                {}
+            ).addTo(feature_group_686f407fa081722c88cd88b9c3f5616f);
+        
+    
+            var icon_de9fa4d0facd57cd41ad0a4c77a6d865 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-plane", "iconColor": "darkblue", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_0c7a52b56e10847a0dc675a1a0657b61.setIcon(icon_de9fa4d0facd57cd41ad0a4c77a6d865);
+        
+    
+        var popup_6310f6a293aca781ce651ea041d9a518 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a6f7859ce919fcca9796bb4a25d38b0 = $(`<div id="html_5a6f7859ce919fcca9796bb4a25d38b0" style="width: 100.0%; height: 100.0%;">New York Penn Station</div>`)[0];
+                popup_6310f6a293aca781ce651ea041d9a518.setContent(html_5a6f7859ce919fcca9796bb4a25d38b0);
+            
+        
+
+        marker_0c7a52b56e10847a0dc675a1a0657b61.bindPopup(popup_6310f6a293aca781ce651ea041d9a518)
+        ;
+
+        
+    
+    
+            var marker_deddd52737cec55a295de55312339ae1 = L.marker(
+                [40.752929, -73.996285],
+                {}
+            ).addTo(feature_group_686f407fa081722c88cd88b9c3f5616f);
+        
+    
+            var icon_00bba5633a3fbc68d186323d30676fee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-plane", "iconColor": "darkblue", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_deddd52737cec55a295de55312339ae1.setIcon(icon_00bba5633a3fbc68d186323d30676fee);
+        
+    
+        var popup_96eaea76a615f55331196b240433eeba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e654ae59649c6fbdb8ee1edce44ff8b3 = $(`<div id="html_e654ae59649c6fbdb8ee1edce44ff8b3" style="width: 100.0%; height: 100.0%;">B&H Photo Video Pro Audio</div>`)[0];
+                popup_96eaea76a615f55331196b240433eeba.setContent(html_e654ae59649c6fbdb8ee1edce44ff8b3);
+            
+        
+
+        marker_deddd52737cec55a295de55312339ae1.bindPopup(popup_96eaea76a615f55331196b240433eeba)
+        ;
+
+        
+    
+    
+            var feature_group_520430c3a2fd3b13d7615a332253f11f = L.featureGroup(
+                {}
+            ).addTo(map_ad9d034b1207e7dc199eb6b4811ee69f);
+        
+    
+            var marker_b894c301af719d581dbe769151445850 = L.marker(
+                [40.751476, -73.992166],
+                {}
+            ).addTo(feature_group_520430c3a2fd3b13d7615a332253f11f);
+        
+    
+            var icon_10351f0fcaad04e2257222733bc3cd90 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-train", "iconColor": "black", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_b894c301af719d581dbe769151445850.setIcon(icon_10351f0fcaad04e2257222733bc3cd90);
+        
+    
+        var popup_3bdce97a8d478f3bae906ff09106ff17 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_71876dd2d16d78d33d882159af140d9d = $(`<div id="html_71876dd2d16d78d33d882159af140d9d" style="width: 100.0%; height: 100.0%;">New York Penn Station</div>`)[0];
+                popup_3bdce97a8d478f3bae906ff09106ff17.setContent(html_71876dd2d16d78d33d882159af140d9d);
+            
+        
+
+        marker_b894c301af719d581dbe769151445850.bindPopup(popup_3bdce97a8d478f3bae906ff09106ff17)
+        ;
+
+        
+    
+    
+            marker_b894c301af719d581dbe769151445850.bindTooltip(
+                `<div>
+                     ['station']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8e6894ab6c4fec9b4eb962b116b02d2f = L.marker(
+                [40.735768, -73.992465],
+                {}
+            ).addTo(feature_group_520430c3a2fd3b13d7615a332253f11f);
+        
+    
+            var icon_7ae5ac57f3d12a49b7d3aaaded197dbf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-train", "iconColor": "black", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_8e6894ab6c4fec9b4eb962b116b02d2f.setIcon(icon_7ae5ac57f3d12a49b7d3aaaded197dbf);
+        
+    
+        var popup_cdb51d4b9d64694f2184bc3151c53c99 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2d60d74c55f2701de1b8875f8ff95838 = $(`<div id="html_2d60d74c55f2701de1b8875f8ff95838" style="width: 100.0%; height: 100.0%;">MTA Subway - 14th St/Union Square</div>`)[0];
+                popup_cdb51d4b9d64694f2184bc3151c53c99.setContent(html_2d60d74c55f2701de1b8875f8ff95838);
+            
+        
+
+        marker_8e6894ab6c4fec9b4eb962b116b02d2f.bindPopup(popup_cdb51d4b9d64694f2184bc3151c53c99)
+        ;
+
+        
+    
+    
+            marker_8e6894ab6c4fec9b4eb962b116b02d2f.bindTooltip(
+                `<div>
+                     ['station']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_84256ce5da7c5f9168aee529ad3976b6 = L.marker(
+                [40.751077, -73.994946],
+                {}
+            ).addTo(feature_group_520430c3a2fd3b13d7615a332253f11f);
+        
+    
+            var icon_677e5abd41af6b469971ed4471317573 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-train", "iconColor": "black", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_84256ce5da7c5f9168aee529ad3976b6.setIcon(icon_677e5abd41af6b469971ed4471317573);
+        
+    
+        var popup_9dabcf64842cc3eb06f1b0336cd27c6b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_344f7ac190c6316ce959eea8aff67e32 = $(`<div id="html_344f7ac190c6316ce959eea8aff67e32" style="width: 100.0%; height: 100.0%;">Moynihan Train Hall</div>`)[0];
+                popup_9dabcf64842cc3eb06f1b0336cd27c6b.setContent(html_344f7ac190c6316ce959eea8aff67e32);
+            
+        
+
+        marker_84256ce5da7c5f9168aee529ad3976b6.bindPopup(popup_9dabcf64842cc3eb06f1b0336cd27c6b)
+        ;
+
+        
+    
+    
+            marker_84256ce5da7c5f9168aee529ad3976b6.bindTooltip(
+                `<div>
+                     ['station']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9b70f951b1179356f29a8052f47e70e3 = L.marker(
+                [40.742999, -74.000349],
+                {}
+            ).addTo(feature_group_520430c3a2fd3b13d7615a332253f11f);
+        
+    
+            var icon_d8ccafae7da38f809f00b4d1b39a7b0d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-train", "iconColor": "black", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_9b70f951b1179356f29a8052f47e70e3.setIcon(icon_d8ccafae7da38f809f00b4d1b39a7b0d);
+        
+    
+        var popup_ae65d6e22dbb43b46368ece00c78438c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4827706997c97ea8124abf713a2eeee1 = $(`<div id="html_4827706997c97ea8124abf713a2eeee1" style="width: 100.0%; height: 100.0%;">MTA - 14th St Subway Station</div>`)[0];
+                popup_ae65d6e22dbb43b46368ece00c78438c.setContent(html_4827706997c97ea8124abf713a2eeee1);
+            
+        
+
+        marker_9b70f951b1179356f29a8052f47e70e3.bindPopup(popup_ae65d6e22dbb43b46368ece00c78438c)
+        ;
+
+        
+    
+    
+            marker_9b70f951b1179356f29a8052f47e70e3.bindTooltip(
+                `<div>
+                     ['station']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0d217c7fa7e23cb77efe6102567a4644 = L.marker(
+                [40.749586, -73.992223],
+                {}
+            ).addTo(feature_group_520430c3a2fd3b13d7615a332253f11f);
+        
+    
+            var icon_e7e7ad7d1badae0ba41b9b76ebd5c5e6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-train", "iconColor": "black", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_0d217c7fa7e23cb77efe6102567a4644.setIcon(icon_e7e7ad7d1badae0ba41b9b76ebd5c5e6);
+        
+    
+        var popup_79b3d259171811f01380af1184c02150 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2fee30378256126e074301e8901a93c7 = $(`<div id="html_2fee30378256126e074301e8901a93c7" style="width: 100.0%; height: 100.0%;">NJ Transit Rail Terminal</div>`)[0];
+                popup_79b3d259171811f01380af1184c02150.setContent(html_2fee30378256126e074301e8901a93c7);
+            
+        
+
+        marker_0d217c7fa7e23cb77efe6102567a4644.bindPopup(popup_79b3d259171811f01380af1184c02150)
+        ;
+
+        
+    
+    
+            marker_0d217c7fa7e23cb77efe6102567a4644.bindTooltip(
+                `<div>
+                     ['station']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ead5286164afc7c1ad8960e0482161a1 = L.marker(
+                [40.749852, -73.992364],
+                {}
+            ).addTo(feature_group_520430c3a2fd3b13d7615a332253f11f);
+        
+    
+            var icon_c2dae0176d2e1f0d5032acb060434071 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-train", "iconColor": "black", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_ead5286164afc7c1ad8960e0482161a1.setIcon(icon_c2dae0176d2e1f0d5032acb060434071);
+        
+    
+        var popup_7516a6188476201d3d986fc0c89b796f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7fa6953b3cc71a68a929141f55f99e69 = $(`<div id="html_7fa6953b3cc71a68a929141f55f99e69" style="width: 100.0%; height: 100.0%;">Kabooz's Bar & Grill</div>`)[0];
+                popup_7516a6188476201d3d986fc0c89b796f.setContent(html_7fa6953b3cc71a68a929141f55f99e69);
+            
+        
+
+        marker_ead5286164afc7c1ad8960e0482161a1.bindPopup(popup_7516a6188476201d3d986fc0c89b796f)
+        ;
+
+        
+    
+    
+            marker_ead5286164afc7c1ad8960e0482161a1.bindTooltip(
+                `<div>
+                     ['station']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a2bb6b8b323c8ce3985c18262dc1fd87 = L.marker(
+                [40.751476, -73.992166],
+                {}
+            ).addTo(feature_group_520430c3a2fd3b13d7615a332253f11f);
+        
+    
+            var icon_6982311d47a1ad916f7a669b4c061f02 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-train", "iconColor": "black", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_a2bb6b8b323c8ce3985c18262dc1fd87.setIcon(icon_6982311d47a1ad916f7a669b4c061f02);
+        
+    
+        var popup_67d4ac2fc3aee1282c4af7753759a64a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9eceb2e56670a11b4ecc2f573bd4fbe1 = $(`<div id="html_9eceb2e56670a11b4ecc2f573bd4fbe1" style="width: 100.0%; height: 100.0%;">New York Penn Station</div>`)[0];
+                popup_67d4ac2fc3aee1282c4af7753759a64a.setContent(html_9eceb2e56670a11b4ecc2f573bd4fbe1);
+            
+        
+
+        marker_a2bb6b8b323c8ce3985c18262dc1fd87.bindPopup(popup_67d4ac2fc3aee1282c4af7753759a64a)
+        ;
+
+        
+    
+    
+            marker_a2bb6b8b323c8ce3985c18262dc1fd87.bindTooltip(
+                `<div>
+                     ['station']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_12b3851bd0686c6b762d57cc30a8bc32 = L.marker(
+                [40.75002, -73.992152],
+                {}
+            ).addTo(feature_group_520430c3a2fd3b13d7615a332253f11f);
+        
+    
+            var icon_24955922c71a6ee2c552ac2b07fd2184 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-train", "iconColor": "black", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_12b3851bd0686c6b762d57cc30a8bc32.setIcon(icon_24955922c71a6ee2c552ac2b07fd2184);
+        
+    
+        var popup_2138c06b11b16ad1077f1266ed57b536 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ae9fe6c11508a8f0cdb79f10ac05ed03 = $(`<div id="html_ae9fe6c11508a8f0cdb79f10ac05ed03" style="width: 100.0%; height: 100.0%;">Don Pepe Pizza</div>`)[0];
+                popup_2138c06b11b16ad1077f1266ed57b536.setContent(html_ae9fe6c11508a8f0cdb79f10ac05ed03);
+            
+        
+
+        marker_12b3851bd0686c6b762d57cc30a8bc32.bindPopup(popup_2138c06b11b16ad1077f1266ed57b536)
+        ;
+
+        
+    
+    
+            marker_12b3851bd0686c6b762d57cc30a8bc32.bindTooltip(
+                `<div>
+                     ['station']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bf71c7fa8fc09cb4f621af2e2e092945 = L.marker(
+                [40.751185, -73.99495],
+                {}
+            ).addTo(feature_group_520430c3a2fd3b13d7615a332253f11f);
+        
+    
+            var icon_a6c9efa0ea9ba5e8fa67c1a5786bbdad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-train", "iconColor": "black", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_bf71c7fa8fc09cb4f621af2e2e092945.setIcon(icon_a6c9efa0ea9ba5e8fa67c1a5786bbdad);
+        
+    
+        var popup_dc89881655813f143bc9689945471589 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3a2e2ff54f8bedb35c0f809f2e831db4 = $(`<div id="html_3a2e2ff54f8bedb35c0f809f2e831db4" style="width: 100.0%; height: 100.0%;">United States Postal Service</div>`)[0];
+                popup_dc89881655813f143bc9689945471589.setContent(html_3a2e2ff54f8bedb35c0f809f2e831db4);
+            
+        
+
+        marker_bf71c7fa8fc09cb4f621af2e2e092945.bindPopup(popup_dc89881655813f143bc9689945471589)
+        ;
+
+        
+    
+    
+            marker_bf71c7fa8fc09cb4f621af2e2e092945.bindTooltip(
+                `<div>
+                     ['station']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2ce4a6a46d11b4f3266f0704752694b8 = L.marker(
+                [40.751077, -73.994946],
+                {}
+            ).addTo(feature_group_520430c3a2fd3b13d7615a332253f11f);
+        
+    
+            var icon_5cb12c6ee9532ee8bd1168c27a186989 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-train", "iconColor": "black", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_2ce4a6a46d11b4f3266f0704752694b8.setIcon(icon_5cb12c6ee9532ee8bd1168c27a186989);
+        
+    
+        var popup_96089bfe19793e8b8eb79d60d5e2caf7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_080e84bffca6bb60e342cc5870acff78 = $(`<div id="html_080e84bffca6bb60e342cc5870acff78" style="width: 100.0%; height: 100.0%;">Moynihan Train Hall</div>`)[0];
+                popup_96089bfe19793e8b8eb79d60d5e2caf7.setContent(html_080e84bffca6bb60e342cc5870acff78);
+            
+        
+
+        marker_2ce4a6a46d11b4f3266f0704752694b8.bindPopup(popup_96089bfe19793e8b8eb79d60d5e2caf7)
+        ;
+
+        
+    
+    
+            marker_2ce4a6a46d11b4f3266f0704752694b8.bindTooltip(
+                `<div>
+                     ['station']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7bb5aa50f5fdfa06add824a5888394d4 = L.marker(
+                [40.749586, -73.992223],
+                {}
+            ).addTo(feature_group_520430c3a2fd3b13d7615a332253f11f);
+        
+    
+            var icon_9da501123cbc32ff643d64da5f4a8508 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-train", "iconColor": "black", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_7bb5aa50f5fdfa06add824a5888394d4.setIcon(icon_9da501123cbc32ff643d64da5f4a8508);
+        
+    
+        var popup_9a8067fa757f561d65d4058a27dfa163 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ea09973b27071f721adaf7ee29034853 = $(`<div id="html_ea09973b27071f721adaf7ee29034853" style="width: 100.0%; height: 100.0%;">NJ Transit Rail Terminal</div>`)[0];
+                popup_9a8067fa757f561d65d4058a27dfa163.setContent(html_ea09973b27071f721adaf7ee29034853);
+            
+        
+
+        marker_7bb5aa50f5fdfa06add824a5888394d4.bindPopup(popup_9a8067fa757f561d65d4058a27dfa163)
+        ;
+
+        
+    
+    
+            marker_7bb5aa50f5fdfa06add824a5888394d4.bindTooltip(
+                `<div>
+                     ['station']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c21bdc833c9c149679c6ab027f68b1c3 = L.marker(
+                [40.735768, -73.992465],
+                {}
+            ).addTo(feature_group_520430c3a2fd3b13d7615a332253f11f);
+        
+    
+            var icon_4f0a52d2fa8e134891119de17379cad3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-train", "iconColor": "black", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_c21bdc833c9c149679c6ab027f68b1c3.setIcon(icon_4f0a52d2fa8e134891119de17379cad3);
+        
+    
+        var popup_15d0600408b02de7fd070eb2f28d1145 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_61688e3d14539fc04854177d976e7c9a = $(`<div id="html_61688e3d14539fc04854177d976e7c9a" style="width: 100.0%; height: 100.0%;">MTA Subway - 14th St/Union Square</div>`)[0];
+                popup_15d0600408b02de7fd070eb2f28d1145.setContent(html_61688e3d14539fc04854177d976e7c9a);
+            
+        
+
+        marker_c21bdc833c9c149679c6ab027f68b1c3.bindPopup(popup_15d0600408b02de7fd070eb2f28d1145)
+        ;
+
+        
+    
+    
+            marker_c21bdc833c9c149679c6ab027f68b1c3.bindTooltip(
+                `<div>
+                     ['station']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_865aa669afa390f54ed370a71b549ced = L.marker(
+                [40.737853, -73.997132],
+                {}
+            ).addTo(feature_group_520430c3a2fd3b13d7615a332253f11f);
+        
+    
+            var icon_93f428b26b8e3afd7b9126f576421f9d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-train", "iconColor": "black", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_865aa669afa390f54ed370a71b549ced.setIcon(icon_93f428b26b8e3afd7b9126f576421f9d);
+        
+    
+        var popup_6871f042b524f42ce62eb0b56a8f5c0e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e83ac1780ddf2f88fc58e63163d3197f = $(`<div id="html_e83ac1780ddf2f88fc58e63163d3197f" style="width: 100.0%; height: 100.0%;">MTA - 14th St Subway Station</div>`)[0];
+                popup_6871f042b524f42ce62eb0b56a8f5c0e.setContent(html_e83ac1780ddf2f88fc58e63163d3197f);
+            
+        
+
+        marker_865aa669afa390f54ed370a71b549ced.bindPopup(popup_6871f042b524f42ce62eb0b56a8f5c0e)
+        ;
+
+        
+    
+    
+            marker_865aa669afa390f54ed370a71b549ced.bindTooltip(
+                `<div>
+                     ['station']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9c9186974a9174719a9b3a52326c6b40 = L.marker(
+                [40.742999, -74.000349],
+                {}
+            ).addTo(feature_group_520430c3a2fd3b13d7615a332253f11f);
+        
+    
+            var icon_0498fe472520beaa368381b96954ae19 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-train", "iconColor": "black", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_9c9186974a9174719a9b3a52326c6b40.setIcon(icon_0498fe472520beaa368381b96954ae19);
+        
+    
+        var popup_405b2253c6e2e44c1c7f734756e6ecfd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_94dc57bbfef4268898dd84a4fb297e4d = $(`<div id="html_94dc57bbfef4268898dd84a4fb297e4d" style="width: 100.0%; height: 100.0%;">MTA - 14th St Subway Station</div>`)[0];
+                popup_405b2253c6e2e44c1c7f734756e6ecfd.setContent(html_94dc57bbfef4268898dd84a4fb297e4d);
+            
+        
+
+        marker_9c9186974a9174719a9b3a52326c6b40.bindPopup(popup_405b2253c6e2e44c1c7f734756e6ecfd)
+        ;
+
+        
+    
+    
+            marker_9c9186974a9174719a9b3a52326c6b40.bindTooltip(
+                `<div>
+                     ['station']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_0038a5c40b4976ba2dfa6539e4b0795d = L.featureGroup(
+                {}
+            ).addTo(map_ad9d034b1207e7dc199eb6b4811ee69f);
+        
+    
+            var feature_group_a9cb83dd967ff546c2e433d7ad3d1367 = L.featureGroup(
+                {}
+            ).addTo(map_ad9d034b1207e7dc199eb6b4811ee69f);
+        
+    
+            var marker_7ecab3edd91b5fc24678a6d2c0a83e3e = L.marker(
+                [40.736069, -73.991298],
+                {}
+            ).addTo(feature_group_a9cb83dd967ff546c2e433d7ad3d1367);
+        
+    
+            var icon_547bdd94b107cbdcb242d62858b20fa9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-thumb-tack", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_7ecab3edd91b5fc24678a6d2c0a83e3e.setIcon(icon_547bdd94b107cbdcb242d62858b20fa9);
+        
+    
+        var popup_d824342795902130ec7f516656747326 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b62000a8a62d7fb3ac530adde1842c96 = $(`<div id="html_b62000a8a62d7fb3ac530adde1842c96" style="width: 100.0%; height: 100.0%;">Union Square Park</div>`)[0];
+                popup_d824342795902130ec7f516656747326.setContent(html_b62000a8a62d7fb3ac530adde1842c96);
+            
+        
+
+        marker_7ecab3edd91b5fc24678a6d2c0a83e3e.bindPopup(popup_d824342795902130ec7f516656747326)
+        ;
+
+        
+    
+    
+            marker_7ecab3edd91b5fc24678a6d2c0a83e3e.bindTooltip(
+                `<div>
+                     ['dog park']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7093ad7c5941c73d236bec2ef409e5b2 = L.marker(
+                [40.749442, -74.007461],
+                {}
+            ).addTo(feature_group_a9cb83dd967ff546c2e433d7ad3d1367);
+        
+    
+            var icon_0e85856b9011171cfa77dd44e8411d7b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-thumb-tack", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_7093ad7c5941c73d236bec2ef409e5b2.setIcon(icon_0e85856b9011171cfa77dd44e8411d7b);
+        
+    
+        var popup_ab13a72ebf8401830e39e4b49ce21c35 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d145131a1c908ae889b7427345274791 = $(`<div id="html_d145131a1c908ae889b7427345274791" style="width: 100.0%; height: 100.0%;">Chelsea Piers Waterside Park</div>`)[0];
+                popup_ab13a72ebf8401830e39e4b49ce21c35.setContent(html_d145131a1c908ae889b7427345274791);
+            
+        
+
+        marker_7093ad7c5941c73d236bec2ef409e5b2.bindPopup(popup_ab13a72ebf8401830e39e4b49ce21c35)
+        ;
+
+        
+    
+    
+            marker_7093ad7c5941c73d236bec2ef409e5b2.bindTooltip(
+                `<div>
+                     ['dog park']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_d240d794c9ee4e5b0796b969760d1f14 = L.featureGroup(
+                {}
+            ).addTo(map_ad9d034b1207e7dc199eb6b4811ee69f);
+        
+    
+            var marker_837dbd95a45da9db24dea7e3d8325bc4 = L.marker(
+                [40.742471, -74.003909],
+                {}
+            ).addTo(feature_group_d240d794c9ee4e5b0796b969760d1f14);
+        
+    
+            var icon_9fa2512170e739c081392fcd706ae7fe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-id-card", "iconColor": "pink", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_837dbd95a45da9db24dea7e3d8325bc4.setIcon(icon_9fa2512170e739c081392fcd706ae7fe);
+        
+    
+        var popup_473f9a0da1eceaee39016ba165631c02 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5fc1e48d9f85c258e75cc1580cf1a49 = $(`<div id="html_c5fc1e48d9f85c258e75cc1580cf1a49" style="width: 100.0%; height: 100.0%;">Tao Downtown</div>`)[0];
+                popup_473f9a0da1eceaee39016ba165631c02.setContent(html_c5fc1e48d9f85c258e75cc1580cf1a49);
+            
+        
+
+        marker_837dbd95a45da9db24dea7e3d8325bc4.bindPopup(popup_473f9a0da1eceaee39016ba165631c02)
+        ;
+
+        
+    
+    
+            var marker_2cbf20324b13e3aafa8d599886110d0e = L.marker(
+                [40.742155, -74.003634],
+                {}
+            ).addTo(feature_group_d240d794c9ee4e5b0796b969760d1f14);
+        
+    
+            var icon_315eef76ec558b9a31fe3195656c9fc6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-id-card", "iconColor": "pink", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_2cbf20324b13e3aafa8d599886110d0e.setIcon(icon_315eef76ec558b9a31fe3195656c9fc6);
+        
+    
+        var popup_c65468227682a5ff67804adfee82ae3f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_161cacb319e0361c088944b49685ea05 = $(`<div id="html_161cacb319e0361c088944b49685ea05" style="width: 100.0%; height: 100.0%;">Dream Downtown</div>`)[0];
+                popup_c65468227682a5ff67804adfee82ae3f.setContent(html_161cacb319e0361c088944b49685ea05);
+            
+        
+
+        marker_2cbf20324b13e3aafa8d599886110d0e.bindPopup(popup_c65468227682a5ff67804adfee82ae3f)
+        ;
+
+        
+    
+    
+            var marker_04f0fcf2c0c171bccf14379640f7dfaa = L.marker(
+                [40.744338, -73.992759],
+                {}
+            ).addTo(feature_group_d240d794c9ee4e5b0796b969760d1f14);
+        
+    
+            var icon_9df6a7ae2f722fb55f10e92c57477b9b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-id-card", "iconColor": "pink", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_04f0fcf2c0c171bccf14379640f7dfaa.setIcon(icon_9df6a7ae2f722fb55f10e92c57477b9b);
+        
+    
+        var popup_544b6e39a560ed78db40c25c615fb821 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_01c7cfb5e545fb13bf402256512d9bec = $(`<div id="html_01c7cfb5e545fb13bf402256512d9bec" style="width: 100.0%; height: 100.0%;">Somewhere Nowhere NYC</div>`)[0];
+                popup_544b6e39a560ed78db40c25c615fb821.setContent(html_01c7cfb5e545fb13bf402256512d9bec);
+            
+        
+
+        marker_04f0fcf2c0c171bccf14379640f7dfaa.bindPopup(popup_544b6e39a560ed78db40c25c615fb821)
+        ;
+
+        
+    
+    
+            var marker_a7acfaef88e48c58792f7d041e7b71a8 = L.marker(
+                [40.742471, -74.003909],
+                {}
+            ).addTo(feature_group_d240d794c9ee4e5b0796b969760d1f14);
+        
+    
+            var icon_fe44292c9773fb1ba910ba5b5894be28 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-id-card", "iconColor": "pink", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_a7acfaef88e48c58792f7d041e7b71a8.setIcon(icon_fe44292c9773fb1ba910ba5b5894be28);
+        
+    
+        var popup_1eab1b2f4fc4b01291971f80d5e54e99 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_55fce0b5ac2e249e2db1be38ff33066a = $(`<div id="html_55fce0b5ac2e249e2db1be38ff33066a" style="width: 100.0%; height: 100.0%;">Tao Downtown</div>`)[0];
+                popup_1eab1b2f4fc4b01291971f80d5e54e99.setContent(html_55fce0b5ac2e249e2db1be38ff33066a);
+            
+        
+
+        marker_a7acfaef88e48c58792f7d041e7b71a8.bindPopup(popup_1eab1b2f4fc4b01291971f80d5e54e99)
+        ;
+
+        
+    
+    
+            var marker_236aff49696844c53eb4f4be1031213f = L.marker(
+                [40.75004, -74.002688],
+                {}
+            ).addTo(feature_group_d240d794c9ee4e5b0796b969760d1f14);
+        
+    
+            var icon_df7154e3fefcefbf2647307eadd20766 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-id-card", "iconColor": "pink", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_236aff49696844c53eb4f4be1031213f.setIcon(icon_df7154e3fefcefbf2647307eadd20766);
+        
+    
+        var popup_f791e93750240f796690bac1a8634b59 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e024d22f8c5cdadb367e11ef72fc3faf = $(`<div id="html_e024d22f8c5cdadb367e11ef72fc3faf" style="width: 100.0%; height: 100.0%;">Marquee</div>`)[0];
+                popup_f791e93750240f796690bac1a8634b59.setContent(html_e024d22f8c5cdadb367e11ef72fc3faf);
+            
+        
+
+        marker_236aff49696844c53eb4f4be1031213f.bindPopup(popup_f791e93750240f796690bac1a8634b59)
+        ;
+
+        
+    
+    
+            var marker_83a08c37ee6790b67766fc3b70863eb9 = L.marker(
+                [40.748059, -73.994827],
+                {}
+            ).addTo(feature_group_d240d794c9ee4e5b0796b969760d1f14);
+        
+    
+            var icon_485f87482608d24cd8ef3711678712d9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-id-card", "iconColor": "pink", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_83a08c37ee6790b67766fc3b70863eb9.setIcon(icon_485f87482608d24cd8ef3711678712d9);
+        
+    
+        var popup_867b89cd7b3f3e5da34606d15eb24d7d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_534791f15641fc5fc45521613241b63c = $(`<div id="html_534791f15641fc5fc45521613241b63c" style="width: 100.0%; height: 100.0%;">Mission Nightclub</div>`)[0];
+                popup_867b89cd7b3f3e5da34606d15eb24d7d.setContent(html_534791f15641fc5fc45521613241b63c);
+            
+        
+
+        marker_83a08c37ee6790b67766fc3b70863eb9.bindPopup(popup_867b89cd7b3f3e5da34606d15eb24d7d)
+        ;
+
+        
+    
+    
+            var marker_b9af90301645e2d633698b4cc68590b9 = L.marker(
+                [40.742102, -74.003589],
+                {}
+            ).addTo(feature_group_d240d794c9ee4e5b0796b969760d1f14);
+        
+    
+            var icon_32d6b6eec94903240e095f24f2177736 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-id-card", "iconColor": "pink", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_b9af90301645e2d633698b4cc68590b9.setIcon(icon_32d6b6eec94903240e095f24f2177736);
+        
+    
+        var popup_7301ff9095d87be49ea34d49503111a8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_009124ee8ebbe9a9f3403b1453048062 = $(`<div id="html_009124ee8ebbe9a9f3403b1453048062" style="width: 100.0%; height: 100.0%;">PHD Rooftop Lounge at Dream Downtown</div>`)[0];
+                popup_7301ff9095d87be49ea34d49503111a8.setContent(html_009124ee8ebbe9a9f3403b1453048062);
+            
+        
+
+        marker_b9af90301645e2d633698b4cc68590b9.bindPopup(popup_7301ff9095d87be49ea34d49503111a8)
+        ;
+
+        
+    
+    
+            var marker_21eff90adbe4546dd691dc10979de347 = L.marker(
+                [40.742471, -74.003909],
+                {}
+            ).addTo(feature_group_d240d794c9ee4e5b0796b969760d1f14);
+        
+    
+            var icon_8a8c2d6d51798f20f8e44e548006add1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-id-card", "iconColor": "pink", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_21eff90adbe4546dd691dc10979de347.setIcon(icon_8a8c2d6d51798f20f8e44e548006add1);
+        
+    
+        var popup_fc252e925c9794678acea7650cd1c7cb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b8d717afc64a1e753c19a47bdb4dc9b8 = $(`<div id="html_b8d717afc64a1e753c19a47bdb4dc9b8" style="width: 100.0%; height: 100.0%;">Tao Downtown</div>`)[0];
+                popup_fc252e925c9794678acea7650cd1c7cb.setContent(html_b8d717afc64a1e753c19a47bdb4dc9b8);
+            
+        
+
+        marker_21eff90adbe4546dd691dc10979de347.bindPopup(popup_fc252e925c9794678acea7650cd1c7cb)
+        ;
+
+        
+    
+    
+            var feature_group_cf5b692cb4314c8f1e4bb609dd2a67a8 = L.featureGroup(
+                {}
+            ).addTo(map_ad9d034b1207e7dc199eb6b4811ee69f);
+        
+    
+            var marker_2a3b3aff0b9b0cd4e13c07bcccc5778a = L.marker(
+                [40.746151, -73.997547],
+                {}
+            ).addTo(feature_group_cf5b692cb4314c8f1e4bb609dd2a67a8);
+        
+    
+            var icon_cc37c2fe9d4d327f338d42a741a054bc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-cutlery", "iconColor": "white", "markerColor": "lightgreen", "prefix": "fa"}
+            );
+            marker_2a3b3aff0b9b0cd4e13c07bcccc5778a.setIcon(icon_cc37c2fe9d4d327f338d42a741a054bc);
+        
+    
+        var popup_d49fd91e51721a96387d9129d59a3687 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b3667bbfe8ffb87c23dfeefc00d4a8ab = $(`<div id="html_b3667bbfe8ffb87c23dfeefc00d4a8ab" style="width: 100.0%; height: 100.0%;">Brooklyn Bagel & Coffee Company</div>`)[0];
+                popup_d49fd91e51721a96387d9129d59a3687.setContent(html_b3667bbfe8ffb87c23dfeefc00d4a8ab);
+            
+        
+
+        marker_2a3b3aff0b9b0cd4e13c07bcccc5778a.bindPopup(popup_d49fd91e51721a96387d9129d59a3687)
+        ;
+
+        
+    
+    
+            marker_2a3b3aff0b9b0cd4e13c07bcccc5778a.bindTooltip(
+                `<div>
+                     ['vegan restaurant']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a314133e68f521ef60ac26c96c465422 = L.marker(
+                [40.736592, -73.99193],
+                {}
+            ).addTo(feature_group_cf5b692cb4314c8f1e4bb609dd2a67a8);
+        
+    
+            var icon_cd7cb5499244a875bc05ce7dfd41481f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-cutlery", "iconColor": "white", "markerColor": "lightgreen", "prefix": "fa"}
+            );
+            marker_a314133e68f521ef60ac26c96c465422.setIcon(icon_cd7cb5499244a875bc05ce7dfd41481f);
+        
+    
+        var popup_871609b09ae4f0454000d619e93dac21 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_991a70a17c6fb95f5c6c255a0f7b51e7 = $(`<div id="html_991a70a17c6fb95f5c6c255a0f7b51e7" style="width: 100.0%; height: 100.0%;">Breads Bakery</div>`)[0];
+                popup_871609b09ae4f0454000d619e93dac21.setContent(html_991a70a17c6fb95f5c6c255a0f7b51e7);
+            
+        
+
+        marker_a314133e68f521ef60ac26c96c465422.bindPopup(popup_871609b09ae4f0454000d619e93dac21)
+        ;
+
+        
+    
+    
+            marker_a314133e68f521ef60ac26c96c465422.bindTooltip(
+                `<div>
+                     ['vegan restaurant']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d4e5f60cc79e2f58f3726bb0e973a2cf = L.marker(
+                [40.746151, -73.997547],
+                {}
+            ).addTo(feature_group_cf5b692cb4314c8f1e4bb609dd2a67a8);
+        
+    
+            var icon_c49a16236d263f91730cc3a7ee1583a0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-cutlery", "iconColor": "white", "markerColor": "lightgreen", "prefix": "fa"}
+            );
+            marker_d4e5f60cc79e2f58f3726bb0e973a2cf.setIcon(icon_c49a16236d263f91730cc3a7ee1583a0);
+        
+    
+        var popup_a91237d6d14c3fcd3e2bc59593e66ff0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_beaf5bf08dca95b7d78211d05e9afad3 = $(`<div id="html_beaf5bf08dca95b7d78211d05e9afad3" style="width: 100.0%; height: 100.0%;">Brooklyn Bagel & Coffee Company</div>`)[0];
+                popup_a91237d6d14c3fcd3e2bc59593e66ff0.setContent(html_beaf5bf08dca95b7d78211d05e9afad3);
+            
+        
+
+        marker_d4e5f60cc79e2f58f3726bb0e973a2cf.bindPopup(popup_a91237d6d14c3fcd3e2bc59593e66ff0)
+        ;
+
+        
+    
+    
+            marker_d4e5f60cc79e2f58f3726bb0e973a2cf.bindTooltip(
+                `<div>
+                     ['vegan restaurant']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b63e924e8290264a0699e143e60809cd = L.marker(
+                [40.738122, -73.991204],
+                {}
+            ).addTo(feature_group_cf5b692cb4314c8f1e4bb609dd2a67a8);
+        
+    
+            var icon_19e7c60ad43da07f648500b332528728 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-cutlery", "iconColor": "white", "markerColor": "lightgreen", "prefix": "fa"}
+            );
+            marker_b63e924e8290264a0699e143e60809cd.setIcon(icon_19e7c60ad43da07f648500b332528728);
+        
+    
+        var popup_f8dd1d58567421f676f859eded661fc8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9e1ee77c2d6ee55c9392afbfddbf4d77 = $(`<div id="html_9e1ee77c2d6ee55c9392afbfddbf4d77" style="width: 100.0%; height: 100.0%;">Sweetgreen</div>`)[0];
+                popup_f8dd1d58567421f676f859eded661fc8.setContent(html_9e1ee77c2d6ee55c9392afbfddbf4d77);
+            
+        
+
+        marker_b63e924e8290264a0699e143e60809cd.bindPopup(popup_f8dd1d58567421f676f859eded661fc8)
+        ;
+
+        
+    
+    
+            marker_b63e924e8290264a0699e143e60809cd.bindTooltip(
+                `<div>
+                     ['vegan restaurant']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cdc66f3162c78af5b28598bfc1b9ad05 = L.marker(
+                [40.736592, -73.99193],
+                {}
+            ).addTo(feature_group_cf5b692cb4314c8f1e4bb609dd2a67a8);
+        
+    
+            var icon_8aa4bb836138236c8553cc716835f558 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-cutlery", "iconColor": "white", "markerColor": "lightgreen", "prefix": "fa"}
+            );
+            marker_cdc66f3162c78af5b28598bfc1b9ad05.setIcon(icon_8aa4bb836138236c8553cc716835f558);
+        
+    
+        var popup_ee7a2be6c257d9ecde1994befd7b309e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a9da31ccc41c8f4a550d7cbb6df2f873 = $(`<div id="html_a9da31ccc41c8f4a550d7cbb6df2f873" style="width: 100.0%; height: 100.0%;">Breads Bakery</div>`)[0];
+                popup_ee7a2be6c257d9ecde1994befd7b309e.setContent(html_a9da31ccc41c8f4a550d7cbb6df2f873);
+            
+        
+
+        marker_cdc66f3162c78af5b28598bfc1b9ad05.bindPopup(popup_ee7a2be6c257d9ecde1994befd7b309e)
+        ;
+
+        
+    
+    
+            marker_cdc66f3162c78af5b28598bfc1b9ad05.bindTooltip(
+                `<div>
+                     ['vegan restaurant']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1c49708de071489a41dad87bf0023498 = L.marker(
+                [40.736592, -73.99193],
+                {}
+            ).addTo(feature_group_cf5b692cb4314c8f1e4bb609dd2a67a8);
+        
+    
+            var icon_691393e39587983f4e23736bfde2e33f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-cutlery", "iconColor": "white", "markerColor": "lightgreen", "prefix": "fa"}
+            );
+            marker_1c49708de071489a41dad87bf0023498.setIcon(icon_691393e39587983f4e23736bfde2e33f);
+        
+    
+        var popup_938d4c609464720da926ca06ca0a189c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c919aad67156b237a6b35241665d4e09 = $(`<div id="html_c919aad67156b237a6b35241665d4e09" style="width: 100.0%; height: 100.0%;">Breads Bakery</div>`)[0];
+                popup_938d4c609464720da926ca06ca0a189c.setContent(html_c919aad67156b237a6b35241665d4e09);
+            
+        
+
+        marker_1c49708de071489a41dad87bf0023498.bindPopup(popup_938d4c609464720da926ca06ca0a189c)
+        ;
+
+        
+    
+    
+            marker_1c49708de071489a41dad87bf0023498.bindTooltip(
+                `<div>
+                     ['vegan restaurant']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d87671813e8e1d0885691e4f5c8202c3 = L.marker(
+                [40.738122, -73.991204],
+                {}
+            ).addTo(feature_group_cf5b692cb4314c8f1e4bb609dd2a67a8);
+        
+    
+            var icon_a1ab0e6fd5a3e169d42d1cdc445b4e1a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-cutlery", "iconColor": "white", "markerColor": "lightgreen", "prefix": "fa"}
+            );
+            marker_d87671813e8e1d0885691e4f5c8202c3.setIcon(icon_a1ab0e6fd5a3e169d42d1cdc445b4e1a);
+        
+    
+        var popup_ff22822b98559139cb8f9a1847f2b8a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d863b217cbf1ad7c48c996c98c4b026 = $(`<div id="html_7d863b217cbf1ad7c48c996c98c4b026" style="width: 100.0%; height: 100.0%;">Sweetgreen</div>`)[0];
+                popup_ff22822b98559139cb8f9a1847f2b8a5.setContent(html_7d863b217cbf1ad7c48c996c98c4b026);
+            
+        
+
+        marker_d87671813e8e1d0885691e4f5c8202c3.bindPopup(popup_ff22822b98559139cb8f9a1847f2b8a5)
+        ;
+
+        
+    
+    
+            marker_d87671813e8e1d0885691e4f5c8202c3.bindTooltip(
+                `<div>
+                     ['vegan restaurant']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8726b7eeeb2afcd34e8a37f9cba75b07 = L.marker(
+                [40.746151, -73.997547],
+                {}
+            ).addTo(feature_group_cf5b692cb4314c8f1e4bb609dd2a67a8);
+        
+    
+            var icon_3b3b5a63a20466b19113b8a63ab90e6e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-cutlery", "iconColor": "white", "markerColor": "lightgreen", "prefix": "fa"}
+            );
+            marker_8726b7eeeb2afcd34e8a37f9cba75b07.setIcon(icon_3b3b5a63a20466b19113b8a63ab90e6e);
+        
+    
+        var popup_13b3b82db4264f2ffd95cdebd29a14c4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c38c50567c2dc4e34831b247fae3c9a4 = $(`<div id="html_c38c50567c2dc4e34831b247fae3c9a4" style="width: 100.0%; height: 100.0%;">Brooklyn Bagel & Coffee Company</div>`)[0];
+                popup_13b3b82db4264f2ffd95cdebd29a14c4.setContent(html_c38c50567c2dc4e34831b247fae3c9a4);
+            
+        
+
+        marker_8726b7eeeb2afcd34e8a37f9cba75b07.bindPopup(popup_13b3b82db4264f2ffd95cdebd29a14c4)
+        ;
+
+        
+    
+    
+            marker_8726b7eeeb2afcd34e8a37f9cba75b07.bindTooltip(
+                `<div>
+                     ['vegan restaurant']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var layer_control_5e2d289d55d33586605640ffe09988fc = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_9203086c24f3fbb66bb034ae054b637f,
+                },
+                overlays :  {
+                    "Starbucks" : feature_group_116ba714e91dda0363d4bf98b20d623a,
+                    "Stadiums" : feature_group_b41db6ec66e0a42b7fcede32e20c5532,
+                    "Schools" : feature_group_e74bde54514c348a1984012723be9eec,
+                    "airports" : feature_group_686f407fa081722c88cd88b9c3f5616f,
+                    "train stations" : feature_group_520430c3a2fd3b13d7615a332253f11f,
+                    "pet grooming" : feature_group_0038a5c40b4976ba2dfa6539e4b0795d,
+                    "dog parks" : feature_group_a9cb83dd967ff546c2e433d7ad3d1367,
+                    "night clubs" : feature_group_d240d794c9ee4e5b0796b969760d1f14,
+                    "vegan restaurants" : feature_group_cf5b692cb4314c8f1e4bb609dd2a67a8,
+                },
+            };
+            L.control.layers(
+                layer_control_5e2d289d55d33586605640ffe09988fc.base_layers,
+                layer_control_5e2d289d55d33586605640ffe09988fc.overlays,
+                {"autoZIndex": true, "collapsed": false, "position": "topright"}
+            ).addTo(map_ad9d034b1207e7dc199eb6b4811ee69f);
+        
+</script>
+</html>
