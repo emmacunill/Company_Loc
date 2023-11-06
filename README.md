@@ -115,6 +115,9 @@ From that a more thorough analysis of the neighborhood was implemented.
 
 Here the results:
 
-![image](https://github.com/emmacunill/Company_Loc/blob/main/images/Captura%20de%20pantalla%202023-11-05%20a%20las%2019.23.32.png?raw=true)
+![image](https://github.com/emmacunill/Company_Loc/blob/main/images/chelsea.png?raw=true)
 
 ## Conclusion
+
+Your company's ideal location is Chelsea, specifically near the intersection of 28th Street and 7th Avenue. This area offers excellent access to Starbucks, train stations, vegan restaurants, and much more. It is close to Madison Square Park, Herald Square, and numerous Metro stations. This neighborhood is an outstanding choice, combining convenience and a thriving business environment.
+
