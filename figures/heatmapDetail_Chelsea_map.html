@@ -1,0 +1,3315 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_06655b53bfa31182934b53553b8fed10 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_06655b53bfa31182934b53553b8fed10" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_06655b53bfa31182934b53553b8fed10 = L.map(
+                "map_06655b53bfa31182934b53553b8fed10",
+                {
+                    center: [40.7466077028232, -73.99981295686258],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 14,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ee2dd7c1618fbe861a149fa9963b7efc = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_06655b53bfa31182934b53553b8fed10);
+        
+    
+            var feature_group_31f4911d9bc5b46f89cb0ac3bed40f0b = L.featureGroup(
+                {}
+            ).addTo(map_06655b53bfa31182934b53553b8fed10);
+        
+    
+            var marker_07efec9c70d88a88519463de6196267b = L.marker(
+                [40.741623, -74.005316],
+                {}
+            ).addTo(feature_group_31f4911d9bc5b46f89cb0ac3bed40f0b);
+        
+    
+            var icon_b684f3afd5edcbe1c0be4b5b6753b9ab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-coffee", "iconColor": "white", "markerColor": "darkgreen", "prefix": "fa"}
+            );
+            marker_07efec9c70d88a88519463de6196267b.setIcon(icon_b684f3afd5edcbe1c0be4b5b6753b9ab);
+        
+    
+        var popup_9f58fb620fc8bf079523b5289c9bae5d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c160ec18320524e64835dd2ba597f3e9 = $(`<div id="html_c160ec18320524e64835dd2ba597f3e9" style="width: 100.0%; height: 100.0%;">Starbucks</div>`)[0];
+                popup_9f58fb620fc8bf079523b5289c9bae5d.setContent(html_c160ec18320524e64835dd2ba597f3e9);
+            
+        
+
+        marker_07efec9c70d88a88519463de6196267b.bindPopup(popup_9f58fb620fc8bf079523b5289c9bae5d)
+        ;
+
+        
+    
+    
+            marker_07efec9c70d88a88519463de6196267b.bindTooltip(
+                `<div>
+                     ['Starbucks']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_235d303a15a887c70aa1b7c5dc23ab35 = L.marker(
+                [40.749124, -73.991375],
+                {}
+            ).addTo(feature_group_31f4911d9bc5b46f89cb0ac3bed40f0b);
+        
+    
+            var icon_205496a7fafca0ee0ecd3a331701e547 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-coffee", "iconColor": "white", "markerColor": "darkgreen", "prefix": "fa"}
+            );
+            marker_235d303a15a887c70aa1b7c5dc23ab35.setIcon(icon_205496a7fafca0ee0ecd3a331701e547);
+        
+    
+        var popup_232845c9d95613d45fd35707a9ee6b2f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_efef5c2cca72b5340927d94b1fbd266f = $(`<div id="html_efef5c2cca72b5340927d94b1fbd266f" style="width: 100.0%; height: 100.0%;">Starbucks</div>`)[0];
+                popup_232845c9d95613d45fd35707a9ee6b2f.setContent(html_efef5c2cca72b5340927d94b1fbd266f);
+            
+        
+
+        marker_235d303a15a887c70aa1b7c5dc23ab35.bindPopup(popup_232845c9d95613d45fd35707a9ee6b2f)
+        ;
+
+        
+    
+    
+            marker_235d303a15a887c70aa1b7c5dc23ab35.bindTooltip(
+                `<div>
+                     ['Starbucks']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cae4c0856deed669a60725df639094de = L.marker(
+                [40.746916, -73.993209],
+                {}
+            ).addTo(feature_group_31f4911d9bc5b46f89cb0ac3bed40f0b);
+        
+    
+            var icon_a7a08299fb7028c707e9d3452fa5f6a4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-coffee", "iconColor": "white", "markerColor": "darkgreen", "prefix": "fa"}
+            );
+            marker_cae4c0856deed669a60725df639094de.setIcon(icon_a7a08299fb7028c707e9d3452fa5f6a4);
+        
+    
+        var popup_f50e2222f52b8c9b72c994ae37148c0f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9ef7c0a13d2ff17f22f90bf267e93bd5 = $(`<div id="html_9ef7c0a13d2ff17f22f90bf267e93bd5" style="width: 100.0%; height: 100.0%;">Starbucks</div>`)[0];
+                popup_f50e2222f52b8c9b72c994ae37148c0f.setContent(html_9ef7c0a13d2ff17f22f90bf267e93bd5);
+            
+        
+
+        marker_cae4c0856deed669a60725df639094de.bindPopup(popup_f50e2222f52b8c9b72c994ae37148c0f)
+        ;
+
+        
+    
+    
+            marker_cae4c0856deed669a60725df639094de.bindTooltip(
+                `<div>
+                     ['Starbucks']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_84a8157fcbef2272bdbf6a6988fb6198 = L.marker(
+                [40.748932, -73.992459],
+                {}
+            ).addTo(feature_group_31f4911d9bc5b46f89cb0ac3bed40f0b);
+        
+    
+            var icon_eab2d377476839da459c1a6ce897633c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-coffee", "iconColor": "white", "markerColor": "darkgreen", "prefix": "fa"}
+            );
+            marker_84a8157fcbef2272bdbf6a6988fb6198.setIcon(icon_eab2d377476839da459c1a6ce897633c);
+        
+    
+        var popup_aa4b48c8d06142e22114a4ebb1831b7c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_63af9934bb4a522249c7275873369c95 = $(`<div id="html_63af9934bb4a522249c7275873369c95" style="width: 100.0%; height: 100.0%;">Starbucks</div>`)[0];
+                popup_aa4b48c8d06142e22114a4ebb1831b7c.setContent(html_63af9934bb4a522249c7275873369c95);
+            
+        
+
+        marker_84a8157fcbef2272bdbf6a6988fb6198.bindPopup(popup_aa4b48c8d06142e22114a4ebb1831b7c)
+        ;
+
+        
+    
+    
+            marker_84a8157fcbef2272bdbf6a6988fb6198.bindTooltip(
+                `<div>
+                     ['Starbucks']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3fcb69dde164d7a01d936ac8c9093f81 = L.marker(
+                [40.747359, -73.994756],
+                {}
+            ).addTo(feature_group_31f4911d9bc5b46f89cb0ac3bed40f0b);
+        
+    
+            var icon_f3e1597c61957bfafdb222afe59bffc7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-coffee", "iconColor": "white", "markerColor": "darkgreen", "prefix": "fa"}
+            );
+            marker_3fcb69dde164d7a01d936ac8c9093f81.setIcon(icon_f3e1597c61957bfafdb222afe59bffc7);
+        
+    
+        var popup_d3b9b6915e88d36f214f72a048bf6a39 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_714ec18fa580bc163931d32c59e9cbac = $(`<div id="html_714ec18fa580bc163931d32c59e9cbac" style="width: 100.0%; height: 100.0%;">Starbucks</div>`)[0];
+                popup_d3b9b6915e88d36f214f72a048bf6a39.setContent(html_714ec18fa580bc163931d32c59e9cbac);
+            
+        
+
+        marker_3fcb69dde164d7a01d936ac8c9093f81.bindPopup(popup_d3b9b6915e88d36f214f72a048bf6a39)
+        ;
+
+        
+    
+    
+            marker_3fcb69dde164d7a01d936ac8c9093f81.bindTooltip(
+                `<div>
+                     ['Starbucks']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b828a92bf2276d6b7b24a1f2e20d175f = L.marker(
+                [40.749124, -73.991375],
+                {}
+            ).addTo(feature_group_31f4911d9bc5b46f89cb0ac3bed40f0b);
+        
+    
+            var icon_a107620a522cf2a311808365c63e5627 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-coffee", "iconColor": "white", "markerColor": "darkgreen", "prefix": "fa"}
+            );
+            marker_b828a92bf2276d6b7b24a1f2e20d175f.setIcon(icon_a107620a522cf2a311808365c63e5627);
+        
+    
+        var popup_da9f54c1b29f8e980657618c52db6d01 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3ac83f4b76115a625826cc75b5c31867 = $(`<div id="html_3ac83f4b76115a625826cc75b5c31867" style="width: 100.0%; height: 100.0%;">Starbucks</div>`)[0];
+                popup_da9f54c1b29f8e980657618c52db6d01.setContent(html_3ac83f4b76115a625826cc75b5c31867);
+            
+        
+
+        marker_b828a92bf2276d6b7b24a1f2e20d175f.bindPopup(popup_da9f54c1b29f8e980657618c52db6d01)
+        ;
+
+        
+    
+    
+            marker_b828a92bf2276d6b7b24a1f2e20d175f.bindTooltip(
+                `<div>
+                     ['Starbucks']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4df7efca67920e5f0f1a330d2436d07b = L.marker(
+                [40.748153, -73.989371],
+                {}
+            ).addTo(feature_group_31f4911d9bc5b46f89cb0ac3bed40f0b);
+        
+    
+            var icon_c67468cbf80379248b9de19a827f4562 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-coffee", "iconColor": "white", "markerColor": "darkgreen", "prefix": "fa"}
+            );
+            marker_4df7efca67920e5f0f1a330d2436d07b.setIcon(icon_c67468cbf80379248b9de19a827f4562);
+        
+    
+        var popup_09ac04ad2eb1d04c888a6115ab6baeda = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d18712dd8da76bba0f16dff73d6e6f60 = $(`<div id="html_d18712dd8da76bba0f16dff73d6e6f60" style="width: 100.0%; height: 100.0%;">Starbucks</div>`)[0];
+                popup_09ac04ad2eb1d04c888a6115ab6baeda.setContent(html_d18712dd8da76bba0f16dff73d6e6f60);
+            
+        
+
+        marker_4df7efca67920e5f0f1a330d2436d07b.bindPopup(popup_09ac04ad2eb1d04c888a6115ab6baeda)
+        ;
+
+        
+    
+    
+            marker_4df7efca67920e5f0f1a330d2436d07b.bindTooltip(
+                `<div>
+                     ['Starbucks']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_85ccc44ca3053d325b1fa913758f941e = L.marker(
+                [40.745198, -73.998863],
+                {}
+            ).addTo(feature_group_31f4911d9bc5b46f89cb0ac3bed40f0b);
+        
+    
+            var icon_e9ec7f19755e636296c4da5bf295e609 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-coffee", "iconColor": "white", "markerColor": "darkgreen", "prefix": "fa"}
+            );
+            marker_85ccc44ca3053d325b1fa913758f941e.setIcon(icon_e9ec7f19755e636296c4da5bf295e609);
+        
+    
+        var popup_2d14247c80714bde3d8592c2985398a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e01e8f1113a116457517edde2159bb7f = $(`<div id="html_e01e8f1113a116457517edde2159bb7f" style="width: 100.0%; height: 100.0%;">Starbucks</div>`)[0];
+                popup_2d14247c80714bde3d8592c2985398a1.setContent(html_e01e8f1113a116457517edde2159bb7f);
+            
+        
+
+        marker_85ccc44ca3053d325b1fa913758f941e.bindPopup(popup_2d14247c80714bde3d8592c2985398a1)
+        ;
+
+        
+    
+    
+            marker_85ccc44ca3053d325b1fa913758f941e.bindTooltip(
+                `<div>
+                     ['Starbucks']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3dd285e8e44a1c64e8b3bf3be0d7b2c5 = L.marker(
+                [40.75263, -73.9954],
+                {}
+            ).addTo(feature_group_31f4911d9bc5b46f89cb0ac3bed40f0b);
+        
+    
+            var icon_bd8436844d53134d598681420c5092cc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-coffee", "iconColor": "white", "markerColor": "darkgreen", "prefix": "fa"}
+            );
+            marker_3dd285e8e44a1c64e8b3bf3be0d7b2c5.setIcon(icon_bd8436844d53134d598681420c5092cc);
+        
+    
+        var popup_387388a5aea5123d50844319df71a2da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_312ed2e80dc6323f8b88bf65b630e758 = $(`<div id="html_312ed2e80dc6323f8b88bf65b630e758" style="width: 100.0%; height: 100.0%;">Starbucks</div>`)[0];
+                popup_387388a5aea5123d50844319df71a2da.setContent(html_312ed2e80dc6323f8b88bf65b630e758);
+            
+        
+
+        marker_3dd285e8e44a1c64e8b3bf3be0d7b2c5.bindPopup(popup_387388a5aea5123d50844319df71a2da)
+        ;
+
+        
+    
+    
+            marker_3dd285e8e44a1c64e8b3bf3be0d7b2c5.bindTooltip(
+                `<div>
+                     ['Starbucks']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_73c1c189df0cdae9c7fe773bfa8b668a = L.marker(
+                [40.752765, -73.998376],
+                {}
+            ).addTo(feature_group_31f4911d9bc5b46f89cb0ac3bed40f0b);
+        
+    
+            var icon_04770fa7119b1a6fd42fd17d1ca3a6e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-coffee", "iconColor": "white", "markerColor": "darkgreen", "prefix": "fa"}
+            );
+            marker_73c1c189df0cdae9c7fe773bfa8b668a.setIcon(icon_04770fa7119b1a6fd42fd17d1ca3a6e5);
+        
+    
+        var popup_9e13ddf2bf2c1b8a8b72fdace2803d42 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_791cc5b55abfdc8a02478a4c86f70e69 = $(`<div id="html_791cc5b55abfdc8a02478a4c86f70e69" style="width: 100.0%; height: 100.0%;">Starbucks</div>`)[0];
+                popup_9e13ddf2bf2c1b8a8b72fdace2803d42.setContent(html_791cc5b55abfdc8a02478a4c86f70e69);
+            
+        
+
+        marker_73c1c189df0cdae9c7fe773bfa8b668a.bindPopup(popup_9e13ddf2bf2c1b8a8b72fdace2803d42)
+        ;
+
+        
+    
+    
+            marker_73c1c189df0cdae9c7fe773bfa8b668a.bindTooltip(
+                `<div>
+                     ['Starbucks']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a025b623535704e24c31c3723b1a4342 = L.marker(
+                [40.74305, -74.000482],
+                {}
+            ).addTo(feature_group_31f4911d9bc5b46f89cb0ac3bed40f0b);
+        
+    
+            var icon_53a2bf1967518c945912c96f7c0541e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-coffee", "iconColor": "white", "markerColor": "darkgreen", "prefix": "fa"}
+            );
+            marker_a025b623535704e24c31c3723b1a4342.setIcon(icon_53a2bf1967518c945912c96f7c0541e7);
+        
+    
+        var popup_6c09762b0fa1a6fa3e71eb5a14e2e736 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d6721616108dbb9d724fab664a0893c7 = $(`<div id="html_d6721616108dbb9d724fab664a0893c7" style="width: 100.0%; height: 100.0%;">Starbucks</div>`)[0];
+                popup_6c09762b0fa1a6fa3e71eb5a14e2e736.setContent(html_d6721616108dbb9d724fab664a0893c7);
+            
+        
+
+        marker_a025b623535704e24c31c3723b1a4342.bindPopup(popup_6c09762b0fa1a6fa3e71eb5a14e2e736)
+        ;
+
+        
+    
+    
+            marker_a025b623535704e24c31c3723b1a4342.bindTooltip(
+                `<div>
+                     ['Starbucks']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_636f2014c9754eff4d84cfaab15a4892 = L.marker(
+                [40.753455, -73.998796],
+                {}
+            ).addTo(feature_group_31f4911d9bc5b46f89cb0ac3bed40f0b);
+        
+    
+            var icon_db0a71bec0da92e5f661b84b7b242618 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-coffee", "iconColor": "white", "markerColor": "darkgreen", "prefix": "fa"}
+            );
+            marker_636f2014c9754eff4d84cfaab15a4892.setIcon(icon_db0a71bec0da92e5f661b84b7b242618);
+        
+    
+        var popup_9bf68c56a381554a926eb4b7e4658647 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_56c0fb98cd3c7a3d505178d2738c8d9e = $(`<div id="html_56c0fb98cd3c7a3d505178d2738c8d9e" style="width: 100.0%; height: 100.0%;">Starbucks</div>`)[0];
+                popup_9bf68c56a381554a926eb4b7e4658647.setContent(html_56c0fb98cd3c7a3d505178d2738c8d9e);
+            
+        
+
+        marker_636f2014c9754eff4d84cfaab15a4892.bindPopup(popup_9bf68c56a381554a926eb4b7e4658647)
+        ;
+
+        
+    
+    
+            marker_636f2014c9754eff4d84cfaab15a4892.bindTooltip(
+                `<div>
+                     ['Starbucks']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0a73d7485cc77c4f0728d36063c9c88f = L.marker(
+                [40.741137, -74.001345],
+                {}
+            ).addTo(feature_group_31f4911d9bc5b46f89cb0ac3bed40f0b);
+        
+    
+            var icon_26e08f6e550ba08109206eff22cccb6e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-coffee", "iconColor": "white", "markerColor": "darkgreen", "prefix": "fa"}
+            );
+            marker_0a73d7485cc77c4f0728d36063c9c88f.setIcon(icon_26e08f6e550ba08109206eff22cccb6e);
+        
+    
+        var popup_a1239452f1724015a4216593f2e297e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_64242dab41cc2ea712424c155dae6bc2 = $(`<div id="html_64242dab41cc2ea712424c155dae6bc2" style="width: 100.0%; height: 100.0%;">Starbucks</div>`)[0];
+                popup_a1239452f1724015a4216593f2e297e9.setContent(html_64242dab41cc2ea712424c155dae6bc2);
+            
+        
+
+        marker_0a73d7485cc77c4f0728d36063c9c88f.bindPopup(popup_a1239452f1724015a4216593f2e297e9)
+        ;
+
+        
+    
+    
+            marker_0a73d7485cc77c4f0728d36063c9c88f.bindTooltip(
+                `<div>
+                     ['Starbucks']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_68136a62157de6078f9d1d30362ebb2c = L.marker(
+                [40.741623, -74.005316],
+                {}
+            ).addTo(feature_group_31f4911d9bc5b46f89cb0ac3bed40f0b);
+        
+    
+            var icon_4ced0c6c013d3bcb5de08370f356834a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-coffee", "iconColor": "white", "markerColor": "darkgreen", "prefix": "fa"}
+            );
+            marker_68136a62157de6078f9d1d30362ebb2c.setIcon(icon_4ced0c6c013d3bcb5de08370f356834a);
+        
+    
+        var popup_63901423016c4c6492fb34f3f3d3c0e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_42376e83a94b0502443dbf2c18bf4c88 = $(`<div id="html_42376e83a94b0502443dbf2c18bf4c88" style="width: 100.0%; height: 100.0%;">Starbucks</div>`)[0];
+                popup_63901423016c4c6492fb34f3f3d3c0e3.setContent(html_42376e83a94b0502443dbf2c18bf4c88);
+            
+        
+
+        marker_68136a62157de6078f9d1d30362ebb2c.bindPopup(popup_63901423016c4c6492fb34f3f3d3c0e3)
+        ;
+
+        
+    
+    
+            marker_68136a62157de6078f9d1d30362ebb2c.bindTooltip(
+                `<div>
+                     ['Starbucks']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_32e078dee6b241fc7c95208919216d96 = L.featureGroup(
+                {}
+            ).addTo(map_06655b53bfa31182934b53553b8fed10);
+        
+    
+            var marker_17fea8c01b53ced8378f17df757f2132 = L.marker(
+                [40.751688, -74.00423],
+                {}
+            ).addTo(feature_group_32e078dee6b241fc7c95208919216d96);
+        
+    
+            var icon_362d2df8c241fc74095905bec0cb912c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-trophy", "iconColor": "white", "markerColor": "darkpurple", "prefix": "fa"}
+            );
+            marker_17fea8c01b53ced8378f17df757f2132.setIcon(icon_362d2df8c241fc74095905bec0cb912c);
+        
+    
+        var popup_d0823128aa4bba0b0646272ce2d7428a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_94f691909f167307c9c3be87a440e127 = $(`<div id="html_94f691909f167307c9c3be87a440e127" style="width: 100.0%; height: 100.0%;">Stadium</div>`)[0];
+                popup_d0823128aa4bba0b0646272ce2d7428a.setContent(html_94f691909f167307c9c3be87a440e127);
+            
+        
+
+        marker_17fea8c01b53ced8378f17df757f2132.bindPopup(popup_d0823128aa4bba0b0646272ce2d7428a)
+        ;
+
+        
+    
+    
+            var feature_group_d9443d6feb5a66f5b6e5a0bc906c5b43 = L.featureGroup(
+                {}
+            ).addTo(map_06655b53bfa31182934b53553b8fed10);
+        
+    
+            var marker_2270830066140ebe010f0e04e2844867 = L.marker(
+                [40.747323, -73.992134],
+                {}
+            ).addTo(feature_group_d9443d6feb5a66f5b6e5a0bc906c5b43);
+        
+    
+            var icon_5a44a0c7ca2a6a5548ddfdc9f6a94063 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-graduation-cap", "iconColor": "lightblue", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_2270830066140ebe010f0e04e2844867.setIcon(icon_5a44a0c7ca2a6a5548ddfdc9f6a94063);
+        
+    
+        var popup_d5932b1a4e72765bdb1b3ca7a74a42a0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c9e8912c5ef589611b94da138a00bfea = $(`<div id="html_c9e8912c5ef589611b94da138a00bfea" style="width: 100.0%; height: 100.0%;">Krowne Vocal School NYC</div>`)[0];
+                popup_d5932b1a4e72765bdb1b3ca7a74a42a0.setContent(html_c9e8912c5ef589611b94da138a00bfea);
+            
+        
+
+        marker_2270830066140ebe010f0e04e2844867.bindPopup(popup_d5932b1a4e72765bdb1b3ca7a74a42a0)
+        ;
+
+        
+    
+    
+            var marker_a6baf7f85cff34f474f5453bc2424b99 = L.marker(
+                [40.74727, -73.992088],
+                {}
+            ).addTo(feature_group_d9443d6feb5a66f5b6e5a0bc906c5b43);
+        
+    
+            var icon_4c9dc3b0647701a5f73f7eb63e86a6e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-graduation-cap", "iconColor": "lightblue", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_a6baf7f85cff34f474f5453bc2424b99.setIcon(icon_4c9dc3b0647701a5f73f7eb63e86a6e3);
+        
+    
+        var popup_105491c6de671255987de93eaed1ce3d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b9dc5fedaceb00b297546f7981be946e = $(`<div id="html_b9dc5fedaceb00b297546f7981be946e" style="width: 100.0%; height: 100.0%;">Hit Song School</div>`)[0];
+                popup_105491c6de671255987de93eaed1ce3d.setContent(html_b9dc5fedaceb00b297546f7981be946e);
+            
+        
+
+        marker_a6baf7f85cff34f474f5453bc2424b99.bindPopup(popup_105491c6de671255987de93eaed1ce3d)
+        ;
+
+        
+    
+    
+            var marker_8fb1f83b0669926bd52ecd3a09353e39 = L.marker(
+                [40.748434, -73.99292],
+                {}
+            ).addTo(feature_group_d9443d6feb5a66f5b6e5a0bc906c5b43);
+        
+    
+            var icon_025d85a88655ae1c6df9f86044ca0a90 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-graduation-cap", "iconColor": "lightblue", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_8fb1f83b0669926bd52ecd3a09353e39.setIcon(icon_025d85a88655ae1c6df9f86044ca0a90);
+        
+    
+        var popup_9d32b8361d9a2020d076c1cf9f99c878 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e2068766368e2fe46738b14ea3fc461 = $(`<div id="html_2e2068766368e2fe46738b14ea3fc461" style="width: 100.0%; height: 100.0%;">NYC Drone School</div>`)[0];
+                popup_9d32b8361d9a2020d076c1cf9f99c878.setContent(html_2e2068766368e2fe46738b14ea3fc461);
+            
+        
+
+        marker_8fb1f83b0669926bd52ecd3a09353e39.bindPopup(popup_9d32b8361d9a2020d076c1cf9f99c878)
+        ;
+
+        
+    
+    
+            var marker_97d6afc094e81d1c949422070c17de97 = L.marker(
+                [40.747254, -73.994664],
+                {}
+            ).addTo(feature_group_d9443d6feb5a66f5b6e5a0bc906c5b43);
+        
+    
+            var icon_411715e43cd9ba1462206cc7d1df6d13 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-graduation-cap", "iconColor": "lightblue", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_97d6afc094e81d1c949422070c17de97.setIcon(icon_411715e43cd9ba1462206cc7d1df6d13);
+        
+    
+        var popup_79cbecba3303e1e17990c361a5d88482 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0dac15bd37107c0244e398aa10da3ef1 = $(`<div id="html_0dac15bd37107c0244e398aa10da3ef1" style="width: 100.0%; height: 100.0%;">Fashion Institute of Technology</div>`)[0];
+                popup_79cbecba3303e1e17990c361a5d88482.setContent(html_0dac15bd37107c0244e398aa10da3ef1);
+            
+        
+
+        marker_97d6afc094e81d1c949422070c17de97.bindPopup(popup_79cbecba3303e1e17990c361a5d88482)
+        ;
+
+        
+    
+    
+            var marker_2a0f30bad53c8222271cd583d6500a64 = L.marker(
+                [40.747212, -73.992217],
+                {}
+            ).addTo(feature_group_d9443d6feb5a66f5b6e5a0bc906c5b43);
+        
+    
+            var icon_3873597504666e156947771e463619b3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-graduation-cap", "iconColor": "lightblue", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_2a0f30bad53c8222271cd583d6500a64.setIcon(icon_3873597504666e156947771e463619b3);
+        
+    
+        var popup_3a46ba4d28dd6b73f6d86483455cac07 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2cc775a46d9c5be05ce3851aa03268ce = $(`<div id="html_2cc775a46d9c5be05ce3851aa03268ce" style="width: 100.0%; height: 100.0%;">The Treehouse Theater and School</div>`)[0];
+                popup_3a46ba4d28dd6b73f6d86483455cac07.setContent(html_2cc775a46d9c5be05ce3851aa03268ce);
+            
+        
+
+        marker_2a0f30bad53c8222271cd583d6500a64.bindPopup(popup_3a46ba4d28dd6b73f6d86483455cac07)
+        ;
+
+        
+    
+    
+            var marker_a5f85637351b935c785d780679c9d64e = L.marker(
+                [40.747504, -73.991398],
+                {}
+            ).addTo(feature_group_d9443d6feb5a66f5b6e5a0bc906c5b43);
+        
+    
+            var icon_f74e7aab71ce46144534b60cbcbb5263 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-graduation-cap", "iconColor": "lightblue", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_a5f85637351b935c785d780679c9d64e.setIcon(icon_f74e7aab71ce46144534b60cbcbb5263);
+        
+    
+        var popup_bb9fa33562702d6890847825c844e905 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3a16fa04d70f528ff0293271e0c6a829 = $(`<div id="html_3a16fa04d70f528ff0293271e0c6a829" style="width: 100.0%; height: 100.0%;">PhotoUno Photography School</div>`)[0];
+                popup_bb9fa33562702d6890847825c844e905.setContent(html_3a16fa04d70f528ff0293271e0c6a829);
+            
+        
+
+        marker_a5f85637351b935c785d780679c9d64e.bindPopup(popup_bb9fa33562702d6890847825c844e905)
+        ;
+
+        
+    
+    
+            var marker_6dfa7d3fd6a4d899cc5bb489d2cf6c43 = L.marker(
+                [40.748362, -73.991607],
+                {}
+            ).addTo(feature_group_d9443d6feb5a66f5b6e5a0bc906c5b43);
+        
+    
+            var icon_58b11de610df8139c7ff9d3e21021b4a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-graduation-cap", "iconColor": "lightblue", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_6dfa7d3fd6a4d899cc5bb489d2cf6c43.setIcon(icon_58b11de610df8139c7ff9d3e21021b4a);
+        
+    
+        var popup_d818f03c9b641a68b1be14f8b21415a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c17bb5d788445626413f6424f826bf3 = $(`<div id="html_5c17bb5d788445626413f6424f826bf3" style="width: 100.0%; height: 100.0%;">Turner School</div>`)[0];
+                popup_d818f03c9b641a68b1be14f8b21415a4.setContent(html_5c17bb5d788445626413f6424f826bf3);
+            
+        
+
+        marker_6dfa7d3fd6a4d899cc5bb489d2cf6c43.bindPopup(popup_d818f03c9b641a68b1be14f8b21415a4)
+        ;
+
+        
+    
+    
+            var marker_551878bbae3780af129cc96c45a27a3f = L.marker(
+                [40.747661, -73.995554],
+                {}
+            ).addTo(feature_group_d9443d6feb5a66f5b6e5a0bc906c5b43);
+        
+    
+            var icon_faadd1830fb66f8437eb3887e3049671 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-graduation-cap", "iconColor": "lightblue", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_551878bbae3780af129cc96c45a27a3f.setIcon(icon_faadd1830fb66f8437eb3887e3049671);
+        
+    
+        var popup_f2e2b42f02e7e41199150f1d22cf4736 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_477b0a00474fae6aadf24d955caf0c5f = $(`<div id="html_477b0a00474fae6aadf24d955caf0c5f" style="width: 100.0%; height: 100.0%;">Jay & Patty Baker School of Business & Technology</div>`)[0];
+                popup_f2e2b42f02e7e41199150f1d22cf4736.setContent(html_477b0a00474fae6aadf24d955caf0c5f);
+            
+        
+
+        marker_551878bbae3780af129cc96c45a27a3f.bindPopup(popup_f2e2b42f02e7e41199150f1d22cf4736)
+        ;
+
+        
+    
+    
+            var marker_4a9f5ce46c1cd0060fc8922146071514 = L.marker(
+                [40.746711, -73.990799],
+                {}
+            ).addTo(feature_group_d9443d6feb5a66f5b6e5a0bc906c5b43);
+        
+    
+            var icon_c9fd66707e063183c5fe50a6db7fd024 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-graduation-cap", "iconColor": "lightblue", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_4a9f5ce46c1cd0060fc8922146071514.setIcon(icon_c9fd66707e063183c5fe50a6db7fd024);
+        
+    
+        var popup_50b4cc7fc06a8ba317041ff7912012f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ff37f0026d4c709c74b1fa3545554974 = $(`<div id="html_ff37f0026d4c709c74b1fa3545554974" style="width: 100.0%; height: 100.0%;">Berlin School Of Creative Leadership</div>`)[0];
+                popup_50b4cc7fc06a8ba317041ff7912012f7.setContent(html_ff37f0026d4c709c74b1fa3545554974);
+            
+        
+
+        marker_4a9f5ce46c1cd0060fc8922146071514.bindPopup(popup_50b4cc7fc06a8ba317041ff7912012f7)
+        ;
+
+        
+    
+    
+            var marker_4e820eb3ae2093f064183d78429243c1 = L.marker(
+                [40.747475, -73.99048],
+                {}
+            ).addTo(feature_group_d9443d6feb5a66f5b6e5a0bc906c5b43);
+        
+    
+            var icon_64be3e87008b0d327b367f789c2f1d8c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-graduation-cap", "iconColor": "lightblue", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_4e820eb3ae2093f064183d78429243c1.setIcon(icon_64be3e87008b0d327b367f789c2f1d8c);
+        
+    
+        var popup_350f992f835fee222e1ee2a54c5bfe17 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5e03829e73b8140791923c5c1bf6613c = $(`<div id="html_5e03829e73b8140791923c5c1bf6613c" style="width: 100.0%; height: 100.0%;">Satellite Academy High School</div>`)[0];
+                popup_350f992f835fee222e1ee2a54c5bfe17.setContent(html_5e03829e73b8140791923c5c1bf6613c);
+            
+        
+
+        marker_4e820eb3ae2093f064183d78429243c1.bindPopup(popup_350f992f835fee222e1ee2a54c5bfe17)
+        ;
+
+        
+    
+    
+            var marker_c01191caa2e8f1ee99ce3d8bb6c2cf75 = L.marker(
+                [40.747757, -73.995994],
+                {}
+            ).addTo(feature_group_d9443d6feb5a66f5b6e5a0bc906c5b43);
+        
+    
+            var icon_becf836e9d3acbd5b302af00edd7e0cd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-graduation-cap", "iconColor": "lightblue", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_c01191caa2e8f1ee99ce3d8bb6c2cf75.setIcon(icon_becf836e9d3acbd5b302af00edd7e0cd);
+        
+    
+        var popup_ea2c342410186a180f9fb8da45c61196 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b467e04719f7149cd9090338612f5518 = $(`<div id="html_b467e04719f7149cd9090338612f5518" style="width: 100.0%; height: 100.0%;">Fashion Institute Of Technology - D Building - School of Art and Design</div>`)[0];
+                popup_ea2c342410186a180f9fb8da45c61196.setContent(html_b467e04719f7149cd9090338612f5518);
+            
+        
+
+        marker_c01191caa2e8f1ee99ce3d8bb6c2cf75.bindPopup(popup_ea2c342410186a180f9fb8da45c61196)
+        ;
+
+        
+    
+    
+            var marker_8099ad2bef2f3117e9ba8eb234e9a699 = L.marker(
+                [40.749424, -73.994225],
+                {}
+            ).addTo(feature_group_d9443d6feb5a66f5b6e5a0bc906c5b43);
+        
+    
+            var icon_28ea2cef6a2cf515f74972804f9a9fc8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-graduation-cap", "iconColor": "lightblue", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_8099ad2bef2f3117e9ba8eb234e9a699.setIcon(icon_28ea2cef6a2cf515f74972804f9a9fc8);
+        
+    
+        var popup_babb225ec82941180b9b4c9663d707a8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1338bfa82531ed1867d5d81b87781e9d = $(`<div id="html_1338bfa82531ed1867d5d81b87781e9d" style="width: 100.0%; height: 100.0%;">New York City Guitar School</div>`)[0];
+                popup_babb225ec82941180b9b4c9663d707a8.setContent(html_1338bfa82531ed1867d5d81b87781e9d);
+            
+        
+
+        marker_8099ad2bef2f3117e9ba8eb234e9a699.bindPopup(popup_babb225ec82941180b9b4c9663d707a8)
+        ;
+
+        
+    
+    
+            var marker_8087a055e86ca58a4586672ccc5dd811 = L.marker(
+                [40.746462, -73.99603],
+                {}
+            ).addTo(feature_group_d9443d6feb5a66f5b6e5a0bc906c5b43);
+        
+    
+            var icon_07d12a6f534323c456737a05d4f4b9e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-graduation-cap", "iconColor": "lightblue", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_8087a055e86ca58a4586672ccc5dd811.setIcon(icon_07d12a6f534323c456737a05d4f4b9e5);
+        
+    
+        var popup_60eff36f5258d88a6cc7e4846af1bdc3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a67e5c008c1357823c8119af9138fbfe = $(`<div id="html_a67e5c008c1357823c8119af9138fbfe" style="width: 100.0%; height: 100.0%;">New York Set Works</div>`)[0];
+                popup_60eff36f5258d88a6cc7e4846af1bdc3.setContent(html_a67e5c008c1357823c8119af9138fbfe);
+            
+        
+
+        marker_8087a055e86ca58a4586672ccc5dd811.bindPopup(popup_60eff36f5258d88a6cc7e4846af1bdc3)
+        ;
+
+        
+    
+    
+            var marker_08090836c32780a2bc2abf65c75dc25a = L.marker(
+                [40.745642, -73.996391],
+                {}
+            ).addTo(feature_group_d9443d6feb5a66f5b6e5a0bc906c5b43);
+        
+    
+            var icon_3362b0fe73962fa08d2875b60ff52b9a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-graduation-cap", "iconColor": "lightblue", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_08090836c32780a2bc2abf65c75dc25a.setIcon(icon_3362b0fe73962fa08d2875b60ff52b9a);
+        
+    
+        var popup_a932f4b2a3fe6a5ef1ea997a151b074a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_537e02df76b3450fa1eba50b7df16149 = $(`<div id="html_537e02df76b3450fa1eba50b7df16149" style="width: 100.0%; height: 100.0%;">High School of Fashion Industries</div>`)[0];
+                popup_a932f4b2a3fe6a5ef1ea997a151b074a.setContent(html_537e02df76b3450fa1eba50b7df16149);
+            
+        
+
+        marker_08090836c32780a2bc2abf65c75dc25a.bindPopup(popup_a932f4b2a3fe6a5ef1ea997a151b074a)
+        ;
+
+        
+    
+    
+            var marker_68d3bf45453526d0f039e90c725c998f = L.marker(
+                [40.748356, -73.989816],
+                {}
+            ).addTo(feature_group_d9443d6feb5a66f5b6e5a0bc906c5b43);
+        
+    
+            var icon_72e51bc48eb8af9d736bfb7d2e31cb05 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-graduation-cap", "iconColor": "lightblue", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_68d3bf45453526d0f039e90c725c998f.setIcon(icon_72e51bc48eb8af9d736bfb7d2e31cb05);
+        
+    
+        var popup_3a49a41d804a02164951641feccb9d4a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e97ab32d42886dc5f388617293fd955 = $(`<div id="html_1e97ab32d42886dc5f388617293fd955" style="width: 100.0%; height: 100.0%;">CUNY School of Professional Studies</div>`)[0];
+                popup_3a49a41d804a02164951641feccb9d4a.setContent(html_1e97ab32d42886dc5f388617293fd955);
+            
+        
+
+        marker_68d3bf45453526d0f039e90c725c998f.bindPopup(popup_3a49a41d804a02164951641feccb9d4a)
+        ;
+
+        
+    
+    
+            var marker_1ea13ff69c2abe26721060ea3c14c244 = L.marker(
+                [40.744793, -73.991903],
+                {}
+            ).addTo(feature_group_d9443d6feb5a66f5b6e5a0bc906c5b43);
+        
+    
+            var icon_2edb4737ed53a2de99ff62c69396bdd4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-graduation-cap", "iconColor": "lightblue", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_1ea13ff69c2abe26721060ea3c14c244.setIcon(icon_2edb4737ed53a2de99ff62c69396bdd4);
+        
+    
+        var popup_d8c931ad4622e7e06db859a7b75ca611 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_86081fb2034d9f59114e8ab64ac0107e = $(`<div id="html_86081fb2034d9f59114e8ab64ac0107e" style="width: 100.0%; height: 100.0%;">Junambe Pottery</div>`)[0];
+                popup_d8c931ad4622e7e06db859a7b75ca611.setContent(html_86081fb2034d9f59114e8ab64ac0107e);
+            
+        
+
+        marker_1ea13ff69c2abe26721060ea3c14c244.bindPopup(popup_d8c931ad4622e7e06db859a7b75ca611)
+        ;
+
+        
+    
+    
+            var marker_26c2b43506c0e83a98b931b5bc371ece = L.marker(
+                [40.747394, -73.991481],
+                {}
+            ).addTo(feature_group_d9443d6feb5a66f5b6e5a0bc906c5b43);
+        
+    
+            var icon_71ec021b13375eae36b5a13c2bb5b7b1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-graduation-cap", "iconColor": "lightblue", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_26c2b43506c0e83a98b931b5bc371ece.setIcon(icon_71ec021b13375eae36b5a13c2bb5b7b1);
+        
+    
+        var popup_e5488a82d104ea540b36f7917e893705 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_73512aada2fc389d57010d7f93a710d7 = $(`<div id="html_73512aada2fc389d57010d7f93a710d7" style="width: 100.0%; height: 100.0%;">School Products Yarn</div>`)[0];
+                popup_e5488a82d104ea540b36f7917e893705.setContent(html_73512aada2fc389d57010d7f93a710d7);
+            
+        
+
+        marker_26c2b43506c0e83a98b931b5bc371ece.bindPopup(popup_e5488a82d104ea540b36f7917e893705)
+        ;
+
+        
+    
+    
+            var marker_ba276abe912bb5a39bdf408054705147 = L.marker(
+                [40.744131, -73.996419],
+                {}
+            ).addTo(feature_group_d9443d6feb5a66f5b6e5a0bc906c5b43);
+        
+    
+            var icon_993aefca3998fa8ab1dcffb76440a72a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-graduation-cap", "iconColor": "lightblue", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_ba276abe912bb5a39bdf408054705147.setIcon(icon_993aefca3998fa8ab1dcffb76440a72a);
+        
+    
+        var popup_e3bbbf4c6d65446fc856a9f55ef65a0c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe469b409b0519a0a29c3f76e4eccf23 = $(`<div id="html_fe469b409b0519a0a29c3f76e4eccf23" style="width: 100.0%; height: 100.0%;">Manhattan Comedy School</div>`)[0];
+                popup_e3bbbf4c6d65446fc856a9f55ef65a0c.setContent(html_fe469b409b0519a0a29c3f76e4eccf23);
+            
+        
+
+        marker_ba276abe912bb5a39bdf408054705147.bindPopup(popup_e3bbbf4c6d65446fc856a9f55ef65a0c)
+        ;
+
+        
+    
+    
+            var marker_cac280d350e4fe13292d86dd798df33f = L.marker(
+                [40.751467, -73.992515],
+                {}
+            ).addTo(feature_group_d9443d6feb5a66f5b6e5a0bc906c5b43);
+        
+    
+            var icon_2c82a98e2c6deae92e56d7630c158060 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-graduation-cap", "iconColor": "lightblue", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_cac280d350e4fe13292d86dd798df33f.setIcon(icon_2c82a98e2c6deae92e56d7630c158060);
+        
+    
+        var popup_5c8e1b81fac38b2f643bcfbaef2bf7bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_12beeb16e6c5e2f10621303ebe66b5c4 = $(`<div id="html_12beeb16e6c5e2f10621303ebe66b5c4" style="width: 100.0%; height: 100.0%;">Med Edits: Medical School Admissions Consulting</div>`)[0];
+                popup_5c8e1b81fac38b2f643bcfbaef2bf7bc.setContent(html_12beeb16e6c5e2f10621303ebe66b5c4);
+            
+        
+
+        marker_cac280d350e4fe13292d86dd798df33f.bindPopup(popup_5c8e1b81fac38b2f643bcfbaef2bf7bc)
+        ;
+
+        
+    
+    
+            var marker_6f54edae30653e659af86bde01e7f6e6 = L.marker(
+                [40.747356, -73.998861],
+                {}
+            ).addTo(feature_group_d9443d6feb5a66f5b6e5a0bc906c5b43);
+        
+    
+            var icon_f5a103776a42a42672e0cf9f1bf2029d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-graduation-cap", "iconColor": "lightblue", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_6f54edae30653e659af86bde01e7f6e6.setIcon(icon_f5a103776a42a42672e0cf9f1bf2029d);
+        
+    
+        var popup_7ccea8b6e8a104f94bdff8db4c03e7a7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_87600646712f84b972f5d211cba085f1 = $(`<div id="html_87600646712f84b972f5d211cba085f1" style="width: 100.0%; height: 100.0%;">Mccarton School</div>`)[0];
+                popup_7ccea8b6e8a104f94bdff8db4c03e7a7.setContent(html_87600646712f84b972f5d211cba085f1);
+            
+        
+
+        marker_6f54edae30653e659af86bde01e7f6e6.bindPopup(popup_7ccea8b6e8a104f94bdff8db4c03e7a7)
+        ;
+
+        
+    
+    
+            var marker_18c6aa24c0ddca777c1639669036a8db = L.marker(
+                [40.742403, -73.994473],
+                {}
+            ).addTo(feature_group_d9443d6feb5a66f5b6e5a0bc906c5b43);
+        
+    
+            var icon_f577fd08bb209f628eb0b53902fd7aac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-graduation-cap", "iconColor": "lightblue", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_18c6aa24c0ddca777c1639669036a8db.setIcon(icon_f577fd08bb209f628eb0b53902fd7aac);
+        
+    
+        var popup_88597199aa62e565c56e7c96bc6ff8d6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e6e94506c9572fca41d9faa6e3b4c04a = $(`<div id="html_e6e94506c9572fca41d9faa6e3b4c04a" style="width: 100.0%; height: 100.0%;">NY Cake Cafe</div>`)[0];
+                popup_88597199aa62e565c56e7c96bc6ff8d6.setContent(html_e6e94506c9572fca41d9faa6e3b4c04a);
+            
+        
+
+        marker_18c6aa24c0ddca777c1639669036a8db.bindPopup(popup_88597199aa62e565c56e7c96bc6ff8d6)
+        ;
+
+        
+    
+    
+            var marker_3725633b44d619377b570c495245e75d = L.marker(
+                [40.749045, -74.000238],
+                {}
+            ).addTo(feature_group_d9443d6feb5a66f5b6e5a0bc906c5b43);
+        
+    
+            var icon_ccc9d7538cdee5bd03b402cc38a0311f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-graduation-cap", "iconColor": "lightblue", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_3725633b44d619377b570c495245e75d.setIcon(icon_ccc9d7538cdee5bd03b402cc38a0311f);
+        
+    
+        var popup_fce28d11a7119c783ba5909a81b5a77d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_83c0e2e2cab31e59fb308a91f403d3ff = $(`<div id="html_83c0e2e2cab31e59fb308a91f403d3ff" style="width: 100.0%; height: 100.0%;">Public School 33</div>`)[0];
+                popup_fce28d11a7119c783ba5909a81b5a77d.setContent(html_83c0e2e2cab31e59fb308a91f403d3ff);
+            
+        
+
+        marker_3725633b44d619377b570c495245e75d.bindPopup(popup_fce28d11a7119c783ba5909a81b5a77d)
+        ;
+
+        
+    
+    
+            var marker_1d6feeeabaf86c1f1411a4ed6585aaa9 = L.marker(
+                [40.746089, -73.999816],
+                {}
+            ).addTo(feature_group_d9443d6feb5a66f5b6e5a0bc906c5b43);
+        
+    
+            var icon_da2bc4ae38054702c3f3be91891a7d65 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-graduation-cap", "iconColor": "lightblue", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_1d6feeeabaf86c1f1411a4ed6585aaa9.setIcon(icon_da2bc4ae38054702c3f3be91891a7d65);
+        
+    
+        var popup_cb3ce833b1f4580dd86396ca807ccfc2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a7b7baf330bd5f8e35c1e315f79c647c = $(`<div id="html_a7b7baf330bd5f8e35c1e315f79c647c" style="width: 100.0%; height: 100.0%;">SVA Theatre</div>`)[0];
+                popup_cb3ce833b1f4580dd86396ca807ccfc2.setContent(html_a7b7baf330bd5f8e35c1e315f79c647c);
+            
+        
+
+        marker_1d6feeeabaf86c1f1411a4ed6585aaa9.bindPopup(popup_cb3ce833b1f4580dd86396ca807ccfc2)
+        ;
+
+        
+    
+    
+            var marker_9e6e068aee0257e323e4d831c37b1b22 = L.marker(
+                [40.742107, -73.995466],
+                {}
+            ).addTo(feature_group_d9443d6feb5a66f5b6e5a0bc906c5b43);
+        
+    
+            var icon_4e9f0c81e22d00c48b8545ffab9c79c8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-graduation-cap", "iconColor": "lightblue", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_9e6e068aee0257e323e4d831c37b1b22.setIcon(icon_4e9f0c81e22d00c48b8545ffab9c79c8);
+        
+    
+        var popup_ba13ac4e6543a6a268f1067a23c15fd2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_955645a9e0416abf1783f308c797c2e9 = $(`<div id="html_955645a9e0416abf1783f308c797c2e9" style="width: 100.0%; height: 100.0%;">School of Visual Arts</div>`)[0];
+                popup_ba13ac4e6543a6a268f1067a23c15fd2.setContent(html_955645a9e0416abf1783f308c797c2e9);
+            
+        
+
+        marker_9e6e068aee0257e323e4d831c37b1b22.bindPopup(popup_ba13ac4e6543a6a268f1067a23c15fd2)
+        ;
+
+        
+    
+    
+            var marker_b3645877bdb1229ccf30a799a2f7bc81 = L.marker(
+                [40.749047, -74.000151],
+                {}
+            ).addTo(feature_group_d9443d6feb5a66f5b6e5a0bc906c5b43);
+        
+    
+            var icon_c6b52b1c9edf6518b0bbef6b42257da2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-graduation-cap", "iconColor": "lightblue", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_b3645877bdb1229ccf30a799a2f7bc81.setIcon(icon_c6b52b1c9edf6518b0bbef6b42257da2);
+        
+    
+        var popup_c09e4973b29b08547675c581ef6fa1a3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_40792e2792447721344e4a001ff8020b = $(`<div id="html_40792e2792447721344e4a001ff8020b" style="width: 100.0%; height: 100.0%;">Education Department of,Region 9, Schools, Intermediate & Junior High Schools, Chelsea Middle School</div>`)[0];
+                popup_c09e4973b29b08547675c581ef6fa1a3.setContent(html_40792e2792447721344e4a001ff8020b);
+            
+        
+
+        marker_b3645877bdb1229ccf30a799a2f7bc81.bindPopup(popup_c09e4973b29b08547675c581ef6fa1a3)
+        ;
+
+        
+    
+    
+            var marker_9a2f92d0f84e3755204be74adf84438d = L.marker(
+                [40.742162, -73.995424],
+                {}
+            ).addTo(feature_group_d9443d6feb5a66f5b6e5a0bc906c5b43);
+        
+    
+            var icon_aa8d7a09fb55016ffd0af40ca8d435a5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-graduation-cap", "iconColor": "lightblue", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_9a2f92d0f84e3755204be74adf84438d.setIcon(icon_aa8d7a09fb55016ffd0af40ca8d435a5);
+        
+    
+        var popup_2752f6f8c594718d37128fb4ed789eb6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_94244252171ab1dac0650a665636e059 = $(`<div id="html_94244252171ab1dac0650a665636e059" style="width: 100.0%; height: 100.0%;">School of Visual Arts MFA Illustration as Visual Essay studios</div>`)[0];
+                popup_2752f6f8c594718d37128fb4ed789eb6.setContent(html_94244252171ab1dac0650a665636e059);
+            
+        
+
+        marker_9a2f92d0f84e3755204be74adf84438d.bindPopup(popup_2752f6f8c594718d37128fb4ed789eb6)
+        ;
+
+        
+    
+    
+            var marker_bf2d1be46f68d1ec7600e1237e397e4e = L.marker(
+                [40.741886, -73.995632],
+                {}
+            ).addTo(feature_group_d9443d6feb5a66f5b6e5a0bc906c5b43);
+        
+    
+            var icon_53921f4f4ee3941eeaaf827ed717c981 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-graduation-cap", "iconColor": "lightblue", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_bf2d1be46f68d1ec7600e1237e397e4e.setIcon(icon_53921f4f4ee3941eeaaf827ed717c981);
+        
+    
+        var popup_4ee0d85eca1cf4a68d9d11d1364ecd41 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_92b3c4a6d2f23e893e6c26cdf1ea9e65 = $(`<div id="html_92b3c4a6d2f23e893e6c26cdf1ea9e65" style="width: 100.0%; height: 100.0%;">Tango For All</div>`)[0];
+                popup_4ee0d85eca1cf4a68d9d11d1364ecd41.setContent(html_92b3c4a6d2f23e893e6c26cdf1ea9e65);
+            
+        
+
+        marker_bf2d1be46f68d1ec7600e1237e397e4e.bindPopup(popup_4ee0d85eca1cf4a68d9d11d1364ecd41)
+        ;
+
+        
+    
+    
+            var marker_17a8bec72c13bdad642a5690f25a6726 = L.marker(
+                [40.744389, -74.00084],
+                {}
+            ).addTo(feature_group_d9443d6feb5a66f5b6e5a0bc906c5b43);
+        
+    
+            var icon_1da9b0ffe70cbb993fa7526e84bcddfa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-graduation-cap", "iconColor": "lightblue", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_17a8bec72c13bdad642a5690f25a6726.setIcon(icon_1da9b0ffe70cbb993fa7526e84bcddfa);
+        
+    
+        var popup_2d33ebc2435710afa53891d5b26b1efa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5e57d2ba4e76df8a8f18533285a42fda = $(`<div id="html_5e57d2ba4e76df8a8f18533285a42fda" style="width: 100.0%; height: 100.0%;">NY SPORTS 4 KIDS William T. Harris School</div>`)[0];
+                popup_2d33ebc2435710afa53891d5b26b1efa.setContent(html_5e57d2ba4e76df8a8f18533285a42fda);
+            
+        
+
+        marker_17a8bec72c13bdad642a5690f25a6726.bindPopup(popup_2d33ebc2435710afa53891d5b26b1efa)
+        ;
+
+        
+    
+    
+            var marker_ce59f4d7a14178e29b19e4172de7977d = L.marker(
+                [40.743433, -74.000278],
+                {}
+            ).addTo(feature_group_d9443d6feb5a66f5b6e5a0bc906c5b43);
+        
+    
+            var icon_3a4456ef69a60a0689e7c32597eea8f3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-graduation-cap", "iconColor": "lightblue", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_ce59f4d7a14178e29b19e4172de7977d.setIcon(icon_3a4456ef69a60a0689e7c32597eea8f3);
+        
+    
+        var popup_3c23317cb4794bff5dac1ed75f220aa6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b1f66045aeb9a019de1a15402e202f4 = $(`<div id="html_2b1f66045aeb9a019de1a15402e202f4" style="width: 100.0%; height: 100.0%;">NYIT 20th Street Residence Hall</div>`)[0];
+                popup_3c23317cb4794bff5dac1ed75f220aa6.setContent(html_2b1f66045aeb9a019de1a15402e202f4);
+            
+        
+
+        marker_ce59f4d7a14178e29b19e4172de7977d.bindPopup(popup_3c23317cb4794bff5dac1ed75f220aa6)
+        ;
+
+        
+    
+    
+            var marker_91972c4f5fe79c0d156b12eff73cf0c4 = L.marker(
+                [40.749393, -74.003309],
+                {}
+            ).addTo(feature_group_d9443d6feb5a66f5b6e5a0bc906c5b43);
+        
+    
+            var icon_b35136bbe4d01feed7f9f96da5b87d00 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-graduation-cap", "iconColor": "lightblue", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_91972c4f5fe79c0d156b12eff73cf0c4.setIcon(icon_b35136bbe4d01feed7f9f96da5b87d00);
+        
+    
+        var popup_655fd275bcd234141f56929b4586e171 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1634795adc215b08f15697edfb52aafc = $(`<div id="html_1634795adc215b08f15697edfb52aafc" style="width: 100.0%; height: 100.0%;">Avenues: The World School</div>`)[0];
+                popup_655fd275bcd234141f56929b4586e171.setContent(html_1634795adc215b08f15697edfb52aafc);
+            
+        
+
+        marker_91972c4f5fe79c0d156b12eff73cf0c4.bindPopup(popup_655fd275bcd234141f56929b4586e171)
+        ;
+
+        
+    
+    
+            var feature_group_4991620d665541a31adac51f8f71d987 = L.featureGroup(
+                {}
+            ).addTo(map_06655b53bfa31182934b53553b8fed10);
+        
+    
+            var marker_b77d34bd4081826c78a44034d4aba3ee = L.marker(
+                [40.751476, -73.992166],
+                {}
+            ).addTo(feature_group_4991620d665541a31adac51f8f71d987);
+        
+    
+            var icon_fc3e7701ee5abb8872a90023daea7db0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-plane", "iconColor": "darkblue", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_b77d34bd4081826c78a44034d4aba3ee.setIcon(icon_fc3e7701ee5abb8872a90023daea7db0);
+        
+    
+        var popup_6baa60ff407c8d4bdaf6ed9bb4213457 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_54a6b6f97d6b64f1872d3edddf479161 = $(`<div id="html_54a6b6f97d6b64f1872d3edddf479161" style="width: 100.0%; height: 100.0%;">New York Penn Station</div>`)[0];
+                popup_6baa60ff407c8d4bdaf6ed9bb4213457.setContent(html_54a6b6f97d6b64f1872d3edddf479161);
+            
+        
+
+        marker_b77d34bd4081826c78a44034d4aba3ee.bindPopup(popup_6baa60ff407c8d4bdaf6ed9bb4213457)
+        ;
+
+        
+    
+    
+            var marker_ad0a61fee5f4f1a9d85b89af37b0d0f3 = L.marker(
+                [40.752929, -73.996285],
+                {}
+            ).addTo(feature_group_4991620d665541a31adac51f8f71d987);
+        
+    
+            var icon_d31526ca8126ca1b5286b5d195511506 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-plane", "iconColor": "darkblue", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_ad0a61fee5f4f1a9d85b89af37b0d0f3.setIcon(icon_d31526ca8126ca1b5286b5d195511506);
+        
+    
+        var popup_ca12df26ff3dedb15d835426a4ceec06 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_df93f91751b8f942a840e0f520bb1c4f = $(`<div id="html_df93f91751b8f942a840e0f520bb1c4f" style="width: 100.0%; height: 100.0%;">B&H Photo Video Pro Audio</div>`)[0];
+                popup_ca12df26ff3dedb15d835426a4ceec06.setContent(html_df93f91751b8f942a840e0f520bb1c4f);
+            
+        
+
+        marker_ad0a61fee5f4f1a9d85b89af37b0d0f3.bindPopup(popup_ca12df26ff3dedb15d835426a4ceec06)
+        ;
+
+        
+    
+    
+            var feature_group_a10dbfe663f2a1b4b127853362d74248 = L.featureGroup(
+                {}
+            ).addTo(map_06655b53bfa31182934b53553b8fed10);
+        
+    
+            var marker_5241de9b93719429726abf5b576312fc = L.marker(
+                [40.751476, -73.992166],
+                {}
+            ).addTo(feature_group_a10dbfe663f2a1b4b127853362d74248);
+        
+    
+            var icon_8c8beb719491d85dfeb8a491d5ca30ad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-train", "iconColor": "black", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_5241de9b93719429726abf5b576312fc.setIcon(icon_8c8beb719491d85dfeb8a491d5ca30ad);
+        
+    
+        var popup_1493eb24e6a8f77694ee97a40843129a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c2577c3b4e3db6637778144660fdb3be = $(`<div id="html_c2577c3b4e3db6637778144660fdb3be" style="width: 100.0%; height: 100.0%;">New York Penn Station</div>`)[0];
+                popup_1493eb24e6a8f77694ee97a40843129a.setContent(html_c2577c3b4e3db6637778144660fdb3be);
+            
+        
+
+        marker_5241de9b93719429726abf5b576312fc.bindPopup(popup_1493eb24e6a8f77694ee97a40843129a)
+        ;
+
+        
+    
+    
+            marker_5241de9b93719429726abf5b576312fc.bindTooltip(
+                `<div>
+                     ['station']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_375c1d4624bb94c23597b82e9ffd5973 = L.marker(
+                [40.735768, -73.992465],
+                {}
+            ).addTo(feature_group_a10dbfe663f2a1b4b127853362d74248);
+        
+    
+            var icon_6cd261016e0cf7522ba07797df11dd60 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-train", "iconColor": "black", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_375c1d4624bb94c23597b82e9ffd5973.setIcon(icon_6cd261016e0cf7522ba07797df11dd60);
+        
+    
+        var popup_bf0c4c2244c7f9c19a8f436d77f8be01 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d75058931b50e71f8fe10cc068f231c = $(`<div id="html_4d75058931b50e71f8fe10cc068f231c" style="width: 100.0%; height: 100.0%;">MTA Subway - 14th St/Union Square</div>`)[0];
+                popup_bf0c4c2244c7f9c19a8f436d77f8be01.setContent(html_4d75058931b50e71f8fe10cc068f231c);
+            
+        
+
+        marker_375c1d4624bb94c23597b82e9ffd5973.bindPopup(popup_bf0c4c2244c7f9c19a8f436d77f8be01)
+        ;
+
+        
+    
+    
+            marker_375c1d4624bb94c23597b82e9ffd5973.bindTooltip(
+                `<div>
+                     ['station']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e70799150a100fe816e5fd31765abff4 = L.marker(
+                [40.751077, -73.994946],
+                {}
+            ).addTo(feature_group_a10dbfe663f2a1b4b127853362d74248);
+        
+    
+            var icon_badfaceb15f50b186643680944d77449 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-train", "iconColor": "black", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_e70799150a100fe816e5fd31765abff4.setIcon(icon_badfaceb15f50b186643680944d77449);
+        
+    
+        var popup_e4af1faa3389471e7668682ac665ba72 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a07fb47a2020765dc4c7e3258acda1b = $(`<div id="html_5a07fb47a2020765dc4c7e3258acda1b" style="width: 100.0%; height: 100.0%;">Moynihan Train Hall</div>`)[0];
+                popup_e4af1faa3389471e7668682ac665ba72.setContent(html_5a07fb47a2020765dc4c7e3258acda1b);
+            
+        
+
+        marker_e70799150a100fe816e5fd31765abff4.bindPopup(popup_e4af1faa3389471e7668682ac665ba72)
+        ;
+
+        
+    
+    
+            marker_e70799150a100fe816e5fd31765abff4.bindTooltip(
+                `<div>
+                     ['station']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_434937e86083fbbe6b2f3d530b153d1c = L.marker(
+                [40.742999, -74.000349],
+                {}
+            ).addTo(feature_group_a10dbfe663f2a1b4b127853362d74248);
+        
+    
+            var icon_603f92c51ae21c82c869f75ac011d745 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-train", "iconColor": "black", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_434937e86083fbbe6b2f3d530b153d1c.setIcon(icon_603f92c51ae21c82c869f75ac011d745);
+        
+    
+        var popup_e056b810ddd9d97aad2c9071f4707853 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_518ddb0e4da0902d3eeb864002142d4e = $(`<div id="html_518ddb0e4da0902d3eeb864002142d4e" style="width: 100.0%; height: 100.0%;">MTA - 14th St Subway Station</div>`)[0];
+                popup_e056b810ddd9d97aad2c9071f4707853.setContent(html_518ddb0e4da0902d3eeb864002142d4e);
+            
+        
+
+        marker_434937e86083fbbe6b2f3d530b153d1c.bindPopup(popup_e056b810ddd9d97aad2c9071f4707853)
+        ;
+
+        
+    
+    
+            marker_434937e86083fbbe6b2f3d530b153d1c.bindTooltip(
+                `<div>
+                     ['station']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_93d8033e6e1ca0c3f039fe657b6244d1 = L.marker(
+                [40.749586, -73.992223],
+                {}
+            ).addTo(feature_group_a10dbfe663f2a1b4b127853362d74248);
+        
+    
+            var icon_525b803f657a9cc1ca9abf43091c0119 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-train", "iconColor": "black", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_93d8033e6e1ca0c3f039fe657b6244d1.setIcon(icon_525b803f657a9cc1ca9abf43091c0119);
+        
+    
+        var popup_e93a13c8caf971229167968251092cdf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f3b82a0b5a329d51ead49e3fa89a29c = $(`<div id="html_6f3b82a0b5a329d51ead49e3fa89a29c" style="width: 100.0%; height: 100.0%;">NJ Transit Rail Terminal</div>`)[0];
+                popup_e93a13c8caf971229167968251092cdf.setContent(html_6f3b82a0b5a329d51ead49e3fa89a29c);
+            
+        
+
+        marker_93d8033e6e1ca0c3f039fe657b6244d1.bindPopup(popup_e93a13c8caf971229167968251092cdf)
+        ;
+
+        
+    
+    
+            marker_93d8033e6e1ca0c3f039fe657b6244d1.bindTooltip(
+                `<div>
+                     ['station']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8bdad53cf6d2b88e7e3abf061472d7c9 = L.marker(
+                [40.749852, -73.992364],
+                {}
+            ).addTo(feature_group_a10dbfe663f2a1b4b127853362d74248);
+        
+    
+            var icon_ed52478896ad22431fdaab580447d10c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-train", "iconColor": "black", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_8bdad53cf6d2b88e7e3abf061472d7c9.setIcon(icon_ed52478896ad22431fdaab580447d10c);
+        
+    
+        var popup_482d3ef11e9f0e51ea3d13deb594701f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b0600aa65f7b94b028db404ab2ce8883 = $(`<div id="html_b0600aa65f7b94b028db404ab2ce8883" style="width: 100.0%; height: 100.0%;">Kabooz's Bar & Grill</div>`)[0];
+                popup_482d3ef11e9f0e51ea3d13deb594701f.setContent(html_b0600aa65f7b94b028db404ab2ce8883);
+            
+        
+
+        marker_8bdad53cf6d2b88e7e3abf061472d7c9.bindPopup(popup_482d3ef11e9f0e51ea3d13deb594701f)
+        ;
+
+        
+    
+    
+            marker_8bdad53cf6d2b88e7e3abf061472d7c9.bindTooltip(
+                `<div>
+                     ['station']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4d37417d81f9bd8c9e58651f52ca0ec2 = L.marker(
+                [40.751476, -73.992166],
+                {}
+            ).addTo(feature_group_a10dbfe663f2a1b4b127853362d74248);
+        
+    
+            var icon_8d35100c4665c9517dbaea4283324bfe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-train", "iconColor": "black", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_4d37417d81f9bd8c9e58651f52ca0ec2.setIcon(icon_8d35100c4665c9517dbaea4283324bfe);
+        
+    
+        var popup_6a6788c3a96641a3ed566dcfbaa69134 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1dec1e98dded98f364852aa10635b582 = $(`<div id="html_1dec1e98dded98f364852aa10635b582" style="width: 100.0%; height: 100.0%;">New York Penn Station</div>`)[0];
+                popup_6a6788c3a96641a3ed566dcfbaa69134.setContent(html_1dec1e98dded98f364852aa10635b582);
+            
+        
+
+        marker_4d37417d81f9bd8c9e58651f52ca0ec2.bindPopup(popup_6a6788c3a96641a3ed566dcfbaa69134)
+        ;
+
+        
+    
+    
+            marker_4d37417d81f9bd8c9e58651f52ca0ec2.bindTooltip(
+                `<div>
+                     ['station']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4f04ac7111831119a319b79b0712dedb = L.marker(
+                [40.75002, -73.992152],
+                {}
+            ).addTo(feature_group_a10dbfe663f2a1b4b127853362d74248);
+        
+    
+            var icon_eb3021dd065e11c895d84d3c7f0712bb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-train", "iconColor": "black", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_4f04ac7111831119a319b79b0712dedb.setIcon(icon_eb3021dd065e11c895d84d3c7f0712bb);
+        
+    
+        var popup_9f2f481a12d56f25d9ca188f369b6063 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_73c49ada902e369d703520f992d325c9 = $(`<div id="html_73c49ada902e369d703520f992d325c9" style="width: 100.0%; height: 100.0%;">Don Pepe Pizza</div>`)[0];
+                popup_9f2f481a12d56f25d9ca188f369b6063.setContent(html_73c49ada902e369d703520f992d325c9);
+            
+        
+
+        marker_4f04ac7111831119a319b79b0712dedb.bindPopup(popup_9f2f481a12d56f25d9ca188f369b6063)
+        ;
+
+        
+    
+    
+            marker_4f04ac7111831119a319b79b0712dedb.bindTooltip(
+                `<div>
+                     ['station']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b379ee56b825979ad4a6e937a1bc99c2 = L.marker(
+                [40.751185, -73.99495],
+                {}
+            ).addTo(feature_group_a10dbfe663f2a1b4b127853362d74248);
+        
+    
+            var icon_1d3be9f74e585f15643a67ef17e0d345 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-train", "iconColor": "black", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_b379ee56b825979ad4a6e937a1bc99c2.setIcon(icon_1d3be9f74e585f15643a67ef17e0d345);
+        
+    
+        var popup_88f40060674c1ad4ca06e8246e7fa584 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4803d8a32cb40a5a7bc44bda0161ecc5 = $(`<div id="html_4803d8a32cb40a5a7bc44bda0161ecc5" style="width: 100.0%; height: 100.0%;">United States Postal Service</div>`)[0];
+                popup_88f40060674c1ad4ca06e8246e7fa584.setContent(html_4803d8a32cb40a5a7bc44bda0161ecc5);
+            
+        
+
+        marker_b379ee56b825979ad4a6e937a1bc99c2.bindPopup(popup_88f40060674c1ad4ca06e8246e7fa584)
+        ;
+
+        
+    
+    
+            marker_b379ee56b825979ad4a6e937a1bc99c2.bindTooltip(
+                `<div>
+                     ['station']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_94c5c4806cd664a34a390f8bc3105165 = L.marker(
+                [40.751077, -73.994946],
+                {}
+            ).addTo(feature_group_a10dbfe663f2a1b4b127853362d74248);
+        
+    
+            var icon_5f4baecd67a4e4e40107cea856bf401b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-train", "iconColor": "black", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_94c5c4806cd664a34a390f8bc3105165.setIcon(icon_5f4baecd67a4e4e40107cea856bf401b);
+        
+    
+        var popup_05cb8ef36669adf46b06bb35d683555c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f8c0ff88314125a219740b3b8c112d8 = $(`<div id="html_2f8c0ff88314125a219740b3b8c112d8" style="width: 100.0%; height: 100.0%;">Moynihan Train Hall</div>`)[0];
+                popup_05cb8ef36669adf46b06bb35d683555c.setContent(html_2f8c0ff88314125a219740b3b8c112d8);
+            
+        
+
+        marker_94c5c4806cd664a34a390f8bc3105165.bindPopup(popup_05cb8ef36669adf46b06bb35d683555c)
+        ;
+
+        
+    
+    
+            marker_94c5c4806cd664a34a390f8bc3105165.bindTooltip(
+                `<div>
+                     ['station']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4a8f758667c9118d54081a20eab60ce1 = L.marker(
+                [40.749586, -73.992223],
+                {}
+            ).addTo(feature_group_a10dbfe663f2a1b4b127853362d74248);
+        
+    
+            var icon_1b47ae390f3fc6dc03501f36b0cf3e6c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-train", "iconColor": "black", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_4a8f758667c9118d54081a20eab60ce1.setIcon(icon_1b47ae390f3fc6dc03501f36b0cf3e6c);
+        
+    
+        var popup_7f31463decfb3f65dd591d04ea139697 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1f0de3aa37893a81cad8cf673b6b4027 = $(`<div id="html_1f0de3aa37893a81cad8cf673b6b4027" style="width: 100.0%; height: 100.0%;">NJ Transit Rail Terminal</div>`)[0];
+                popup_7f31463decfb3f65dd591d04ea139697.setContent(html_1f0de3aa37893a81cad8cf673b6b4027);
+            
+        
+
+        marker_4a8f758667c9118d54081a20eab60ce1.bindPopup(popup_7f31463decfb3f65dd591d04ea139697)
+        ;
+
+        
+    
+    
+            marker_4a8f758667c9118d54081a20eab60ce1.bindTooltip(
+                `<div>
+                     ['station']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7153dd9bf1c4768116e46e0ab84febd8 = L.marker(
+                [40.735768, -73.992465],
+                {}
+            ).addTo(feature_group_a10dbfe663f2a1b4b127853362d74248);
+        
+    
+            var icon_eb411b4f3d6ff5dc136e5a98c29ab90e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-train", "iconColor": "black", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_7153dd9bf1c4768116e46e0ab84febd8.setIcon(icon_eb411b4f3d6ff5dc136e5a98c29ab90e);
+        
+    
+        var popup_b15d70b014a8a97bfd672fe048ec9910 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_23fa086e1017d372fc2517b635aaf7a6 = $(`<div id="html_23fa086e1017d372fc2517b635aaf7a6" style="width: 100.0%; height: 100.0%;">MTA Subway - 14th St/Union Square</div>`)[0];
+                popup_b15d70b014a8a97bfd672fe048ec9910.setContent(html_23fa086e1017d372fc2517b635aaf7a6);
+            
+        
+
+        marker_7153dd9bf1c4768116e46e0ab84febd8.bindPopup(popup_b15d70b014a8a97bfd672fe048ec9910)
+        ;
+
+        
+    
+    
+            marker_7153dd9bf1c4768116e46e0ab84febd8.bindTooltip(
+                `<div>
+                     ['station']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e5688727ded254a75117c20a8b5a238b = L.marker(
+                [40.737853, -73.997132],
+                {}
+            ).addTo(feature_group_a10dbfe663f2a1b4b127853362d74248);
+        
+    
+            var icon_e0c3f4f7c3865cb93eaa0553153e795c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-train", "iconColor": "black", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_e5688727ded254a75117c20a8b5a238b.setIcon(icon_e0c3f4f7c3865cb93eaa0553153e795c);
+        
+    
+        var popup_5c518ab0c641ce818208ac7504aa58db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fdc7b58369f7b53bb16813bb66836cb8 = $(`<div id="html_fdc7b58369f7b53bb16813bb66836cb8" style="width: 100.0%; height: 100.0%;">MTA - 14th St Subway Station</div>`)[0];
+                popup_5c518ab0c641ce818208ac7504aa58db.setContent(html_fdc7b58369f7b53bb16813bb66836cb8);
+            
+        
+
+        marker_e5688727ded254a75117c20a8b5a238b.bindPopup(popup_5c518ab0c641ce818208ac7504aa58db)
+        ;
+
+        
+    
+    
+            marker_e5688727ded254a75117c20a8b5a238b.bindTooltip(
+                `<div>
+                     ['station']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3f21be0b9151506e2525b765097ed9e9 = L.marker(
+                [40.742999, -74.000349],
+                {}
+            ).addTo(feature_group_a10dbfe663f2a1b4b127853362d74248);
+        
+    
+            var icon_031eaf229a2cc188816c2816b470a5bb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-train", "iconColor": "black", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_3f21be0b9151506e2525b765097ed9e9.setIcon(icon_031eaf229a2cc188816c2816b470a5bb);
+        
+    
+        var popup_a7de303d32ad24669ee91b9986dc1abd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a29dc69683542751f40c514670582cd = $(`<div id="html_5a29dc69683542751f40c514670582cd" style="width: 100.0%; height: 100.0%;">MTA - 14th St Subway Station</div>`)[0];
+                popup_a7de303d32ad24669ee91b9986dc1abd.setContent(html_5a29dc69683542751f40c514670582cd);
+            
+        
+
+        marker_3f21be0b9151506e2525b765097ed9e9.bindPopup(popup_a7de303d32ad24669ee91b9986dc1abd)
+        ;
+
+        
+    
+    
+            marker_3f21be0b9151506e2525b765097ed9e9.bindTooltip(
+                `<div>
+                     ['station']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_8c61eb36513bd0af15a5da779770cec3 = L.featureGroup(
+                {}
+            ).addTo(map_06655b53bfa31182934b53553b8fed10);
+        
+    
+            var feature_group_9b1edf3c2fbe75c2fd19b560be0b52a7 = L.featureGroup(
+                {}
+            ).addTo(map_06655b53bfa31182934b53553b8fed10);
+        
+    
+            var marker_d9c70eb042a31f2042b11caef822805a = L.marker(
+                [40.748839, -73.991931],
+                {}
+            ).addTo(feature_group_9b1edf3c2fbe75c2fd19b560be0b52a7);
+        
+    
+            var icon_93b3e3bd98bfdff090a89afdb8089db3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-thumb-tack", "iconColor": "orange", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_d9c70eb042a31f2042b11caef822805a.setIcon(icon_93b3e3bd98bfdff090a89afdb8089db3);
+        
+    
+        var popup_482d7173fa13ed25da8b55dc4bd6d676 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a699a3a7f6dcb8758a0da209e09b069d = $(`<div id="html_a699a3a7f6dcb8758a0da209e09b069d" style="width: 100.0%; height: 100.0%;">Dog Park</div>`)[0];
+                popup_482d7173fa13ed25da8b55dc4bd6d676.setContent(html_a699a3a7f6dcb8758a0da209e09b069d);
+            
+        
+
+        marker_d9c70eb042a31f2042b11caef822805a.bindPopup(popup_482d7173fa13ed25da8b55dc4bd6d676)
+        ;
+
+        
+    
+    
+            marker_d9c70eb042a31f2042b11caef822805a.bindTooltip(
+                `<div>
+                     ['dog park']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_16e7924aa5566c7d23cbb24331c4f992 = L.marker(
+                [40.747097, -73.998458],
+                {}
+            ).addTo(feature_group_9b1edf3c2fbe75c2fd19b560be0b52a7);
+        
+    
+            var icon_d7e10c5390e2b93b7840211727146506 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-thumb-tack", "iconColor": "orange", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_16e7924aa5566c7d23cbb24331c4f992.setIcon(icon_d7e10c5390e2b93b7840211727146506);
+        
+    
+        var popup_551ca22ea220429a1521872d8ed68817 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9875dd9bef4edaecd009e3bca46ff34 = $(`<div id="html_f9875dd9bef4edaecd009e3bca46ff34" style="width: 100.0%; height: 100.0%;">Penn South Dog Run</div>`)[0];
+                popup_551ca22ea220429a1521872d8ed68817.setContent(html_f9875dd9bef4edaecd009e3bca46ff34);
+            
+        
+
+        marker_16e7924aa5566c7d23cbb24331c4f992.bindPopup(popup_551ca22ea220429a1521872d8ed68817)
+        ;
+
+        
+    
+    
+            marker_16e7924aa5566c7d23cbb24331c4f992.bindTooltip(
+                `<div>
+                     ['dog park']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_677443f9480e8899c51bbf9692d1c0a5 = L.marker(
+                [40.746273, -73.998993],
+                {}
+            ).addTo(feature_group_9b1edf3c2fbe75c2fd19b560be0b52a7);
+        
+    
+            var icon_fc1f6f4adf433066819bf4c6b089d5d2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-thumb-tack", "iconColor": "orange", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_677443f9480e8899c51bbf9692d1c0a5.setIcon(icon_fc1f6f4adf433066819bf4c6b089d5d2);
+        
+    
+        var popup_36a8f377ba922963f8dc94b8b3b45459 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef1abc71d6b613a889556bf2b62b01fc = $(`<div id="html_ef1abc71d6b613a889556bf2b62b01fc" style="width: 100.0%; height: 100.0%;">Star Dog Park</div>`)[0];
+                popup_36a8f377ba922963f8dc94b8b3b45459.setContent(html_ef1abc71d6b613a889556bf2b62b01fc);
+            
+        
+
+        marker_677443f9480e8899c51bbf9692d1c0a5.bindPopup(popup_36a8f377ba922963f8dc94b8b3b45459)
+        ;
+
+        
+    
+    
+            marker_677443f9480e8899c51bbf9692d1c0a5.bindTooltip(
+                `<div>
+                     ['dog park']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cb33da34726029838f8f499292fd2b2d = L.marker(
+                [40.749442, -74.007461],
+                {}
+            ).addTo(feature_group_9b1edf3c2fbe75c2fd19b560be0b52a7);
+        
+    
+            var icon_7991bce2f22a1f29b5fe701a68c5976a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-thumb-tack", "iconColor": "orange", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_cb33da34726029838f8f499292fd2b2d.setIcon(icon_7991bce2f22a1f29b5fe701a68c5976a);
+        
+    
+        var popup_adbb615c35d3fe18dc3649084bbc703f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_78fae071e635904c6c772fea09f37f77 = $(`<div id="html_78fae071e635904c6c772fea09f37f77" style="width: 100.0%; height: 100.0%;">Chelsea Piers Waterside Park</div>`)[0];
+                popup_adbb615c35d3fe18dc3649084bbc703f.setContent(html_78fae071e635904c6c772fea09f37f77);
+            
+        
+
+        marker_cb33da34726029838f8f499292fd2b2d.bindPopup(popup_adbb615c35d3fe18dc3649084bbc703f)
+        ;
+
+        
+    
+    
+            marker_cb33da34726029838f8f499292fd2b2d.bindTooltip(
+                `<div>
+                     ['dog park']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b926ed0aecb40b9d8ef91d09712b6765 = L.marker(
+                [40.736069, -73.991298],
+                {}
+            ).addTo(feature_group_9b1edf3c2fbe75c2fd19b560be0b52a7);
+        
+    
+            var icon_4a1902a711d89a7645a7037782bc76f7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-thumb-tack", "iconColor": "orange", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_b926ed0aecb40b9d8ef91d09712b6765.setIcon(icon_4a1902a711d89a7645a7037782bc76f7);
+        
+    
+        var popup_a898081510a76eeceedeeae6af939f52 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3531e3e9ebcc89a85b589286965ced3e = $(`<div id="html_3531e3e9ebcc89a85b589286965ced3e" style="width: 100.0%; height: 100.0%;">Union Square Park</div>`)[0];
+                popup_a898081510a76eeceedeeae6af939f52.setContent(html_3531e3e9ebcc89a85b589286965ced3e);
+            
+        
+
+        marker_b926ed0aecb40b9d8ef91d09712b6765.bindPopup(popup_a898081510a76eeceedeeae6af939f52)
+        ;
+
+        
+    
+    
+            marker_b926ed0aecb40b9d8ef91d09712b6765.bindTooltip(
+                `<div>
+                     ['dog park']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_06028c9abe37f5a8f1346831f41a109f = L.featureGroup(
+                {}
+            ).addTo(map_06655b53bfa31182934b53553b8fed10);
+        
+    
+            var marker_5448b488646437567b358d1a527c44f6 = L.marker(
+                [40.748009, -73.994694],
+                {}
+            ).addTo(feature_group_06028c9abe37f5a8f1346831f41a109f);
+        
+    
+            var icon_451a0e9e0085572c8d0611a1ffd2ed8f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-id-card", "iconColor": "pink", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_5448b488646437567b358d1a527c44f6.setIcon(icon_451a0e9e0085572c8d0611a1ffd2ed8f);
+        
+    
+        var popup_3a9fcc478c9619c299b340bf2c918b8f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4b18708cddd026578f29e15c6a27ffba = $(`<div id="html_4b18708cddd026578f29e15c6a27ffba" style="width: 100.0%; height: 100.0%;">Battle Hymn</div>`)[0];
+                popup_3a9fcc478c9619c299b340bf2c918b8f.setContent(html_4b18708cddd026578f29e15c6a27ffba);
+            
+        
+
+        marker_5448b488646437567b358d1a527c44f6.bindPopup(popup_3a9fcc478c9619c299b340bf2c918b8f)
+        ;
+
+        
+    
+    
+            var marker_89c52fef3c545d9a9f8ad0b74912e65d = L.marker(
+                [40.748009, -73.994694],
+                {}
+            ).addTo(feature_group_06028c9abe37f5a8f1346831f41a109f);
+        
+    
+            var icon_39efcc80372c9ec97df907e3269ed687 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-id-card", "iconColor": "pink", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_89c52fef3c545d9a9f8ad0b74912e65d.setIcon(icon_39efcc80372c9ec97df907e3269ed687);
+        
+    
+        var popup_f078c4a62b7b4c3251b5dea65d59292f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ccaac0133d370d0241dafd22d9b8d2b7 = $(`<div id="html_ccaac0133d370d0241dafd22d9b8d2b7" style="width: 100.0%; height: 100.0%;">Get Punished Male Strip Club & Male Strippers</div>`)[0];
+                popup_f078c4a62b7b4c3251b5dea65d59292f.setContent(html_ccaac0133d370d0241dafd22d9b8d2b7);
+            
+        
+
+        marker_89c52fef3c545d9a9f8ad0b74912e65d.bindPopup(popup_f078c4a62b7b4c3251b5dea65d59292f)
+        ;
+
+        
+    
+    
+            var marker_51d74fc4075863f623f006036024cd25 = L.marker(
+                [40.748059, -73.994827],
+                {}
+            ).addTo(feature_group_06028c9abe37f5a8f1346831f41a109f);
+        
+    
+            var icon_43e0f14be58e2310f7e8f44613fe173a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-id-card", "iconColor": "pink", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_51d74fc4075863f623f006036024cd25.setIcon(icon_43e0f14be58e2310f7e8f44613fe173a);
+        
+    
+        var popup_885a0894a21d9f4f08446206f83ee467 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c270459af1c5370e1c7d0eadee037e6 = $(`<div id="html_4c270459af1c5370e1c7d0eadee037e6" style="width: 100.0%; height: 100.0%;">Mission Nightclub</div>`)[0];
+                popup_885a0894a21d9f4f08446206f83ee467.setContent(html_4c270459af1c5370e1c7d0eadee037e6);
+            
+        
+
+        marker_51d74fc4075863f623f006036024cd25.bindPopup(popup_885a0894a21d9f4f08446206f83ee467)
+        ;
+
+        
+    
+    
+            var marker_c8f7546f35efe0cdac83c8beeb359074 = L.marker(
+                [40.746116, -73.994838],
+                {}
+            ).addTo(feature_group_06028c9abe37f5a8f1346831f41a109f);
+        
+    
+            var icon_7ef6109dda71525b8df1db47ad262cba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-id-card", "iconColor": "pink", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_c8f7546f35efe0cdac83c8beeb359074.setIcon(icon_7ef6109dda71525b8df1db47ad262cba);
+        
+    
+        var popup_0bbd3fb43eb233db5bedbe1b93a1f7da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f211bc7252bdacf033c877b0aaa9a87a = $(`<div id="html_f211bc7252bdacf033c877b0aaa9a87a" style="width: 100.0%; height: 100.0%;">Chelsea Centro</div>`)[0];
+                popup_0bbd3fb43eb233db5bedbe1b93a1f7da.setContent(html_f211bc7252bdacf033c877b0aaa9a87a);
+            
+        
+
+        marker_c8f7546f35efe0cdac83c8beeb359074.bindPopup(popup_0bbd3fb43eb233db5bedbe1b93a1f7da)
+        ;
+
+        
+    
+    
+            var marker_adcc593369f567540f1620eca51f8bde = L.marker(
+                [40.750057, -73.994774],
+                {}
+            ).addTo(feature_group_06028c9abe37f5a8f1346831f41a109f);
+        
+    
+            var icon_e00f088a168cc547202b9085db134384 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-id-card", "iconColor": "pink", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_adcc593369f567540f1620eca51f8bde.setIcon(icon_e00f088a168cc547202b9085db134384);
+        
+    
+        var popup_286eada10c68ee53ccc51b8f595d4467 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9141c93d910c98038f562d06099a7d0d = $(`<div id="html_9141c93d910c98038f562d06099a7d0d" style="width: 100.0%; height: 100.0%;">Frim Fram Jam</div>`)[0];
+                popup_286eada10c68ee53ccc51b8f595d4467.setContent(html_9141c93d910c98038f562d06099a7d0d);
+            
+        
+
+        marker_adcc593369f567540f1620eca51f8bde.bindPopup(popup_286eada10c68ee53ccc51b8f595d4467)
+        ;
+
+        
+    
+    
+            var marker_121f07973863dc509c949f7eae3083f8 = L.marker(
+                [40.744338, -73.992759],
+                {}
+            ).addTo(feature_group_06028c9abe37f5a8f1346831f41a109f);
+        
+    
+            var icon_8afd33224f2ed93f5b981dc50355bf31 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-id-card", "iconColor": "pink", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_121f07973863dc509c949f7eae3083f8.setIcon(icon_8afd33224f2ed93f5b981dc50355bf31);
+        
+    
+        var popup_550fca788b09e50ce5bc2a4856f10bdd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c2856411eed3ade71d6e7993bc48290b = $(`<div id="html_c2856411eed3ade71d6e7993bc48290b" style="width: 100.0%; height: 100.0%;">Somewhere Nowhere NYC</div>`)[0];
+                popup_550fca788b09e50ce5bc2a4856f10bdd.setContent(html_c2856411eed3ade71d6e7993bc48290b);
+            
+        
+
+        marker_121f07973863dc509c949f7eae3083f8.bindPopup(popup_550fca788b09e50ce5bc2a4856f10bdd)
+        ;
+
+        
+    
+    
+            var marker_7cbfdaf524f1a54d8f37a70555f03210 = L.marker(
+                [40.743958, -73.99484],
+                {}
+            ).addTo(feature_group_06028c9abe37f5a8f1346831f41a109f);
+        
+    
+            var icon_cb2d2ae5f523e589d8f05e0b436a368f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-id-card", "iconColor": "pink", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_7cbfdaf524f1a54d8f37a70555f03210.setIcon(icon_cb2d2ae5f523e589d8f05e0b436a368f);
+        
+    
+        var popup_639f3f6e46e7a7d6d77d5301c515199f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f5ebabd4b472f0be858035095e43df00 = $(`<div id="html_f5ebabd4b472f0be858035095e43df00" style="width: 100.0%; height: 100.0%;">Retroclubnyc Retroclubnyc</div>`)[0];
+                popup_639f3f6e46e7a7d6d77d5301c515199f.setContent(html_f5ebabd4b472f0be858035095e43df00);
+            
+        
+
+        marker_7cbfdaf524f1a54d8f37a70555f03210.bindPopup(popup_639f3f6e46e7a7d6d77d5301c515199f)
+        ;
+
+        
+    
+    
+            var marker_abc90077369bb058839cb42946703003 = L.marker(
+                [40.749299, -73.99885],
+                {}
+            ).addTo(feature_group_06028c9abe37f5a8f1346831f41a109f);
+        
+    
+            var icon_8d4ab03cb02d03cbfdbba7437c31257d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-id-card", "iconColor": "pink", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_abc90077369bb058839cb42946703003.setIcon(icon_8d4ab03cb02d03cbfdbba7437c31257d);
+        
+    
+        var popup_010914db7fc2573d6a44b70f02fa0154 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ffa361e0cf1d819aa07ce3a53a3deb50 = $(`<div id="html_ffa361e0cf1d819aa07ce3a53a3deb50" style="width: 100.0%; height: 100.0%;">Holy Apostles Ballroom</div>`)[0];
+                popup_010914db7fc2573d6a44b70f02fa0154.setContent(html_ffa361e0cf1d819aa07ce3a53a3deb50);
+            
+        
+
+        marker_abc90077369bb058839cb42946703003.bindPopup(popup_010914db7fc2573d6a44b70f02fa0154)
+        ;
+
+        
+    
+    
+            var marker_a8b77f9424f4bdf3e25437a113566d3a = L.marker(
+                [40.742567, -73.996401],
+                {}
+            ).addTo(feature_group_06028c9abe37f5a8f1346831f41a109f);
+        
+    
+            var icon_22eeb9e49ed2d0bcc016f1115333cce7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-id-card", "iconColor": "pink", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_a8b77f9424f4bdf3e25437a113566d3a.setIcon(icon_22eeb9e49ed2d0bcc016f1115333cce7);
+        
+    
+        var popup_59eb611d36752a669d51c1f165698943 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3484c4dafe86b38599ee8eb77039571f = $(`<div id="html_3484c4dafe86b38599ee8eb77039571f" style="width: 100.0%; height: 100.0%;">Critical Practices</div>`)[0];
+                popup_59eb611d36752a669d51c1f165698943.setContent(html_3484c4dafe86b38599ee8eb77039571f);
+            
+        
+
+        marker_a8b77f9424f4bdf3e25437a113566d3a.bindPopup(popup_59eb611d36752a669d51c1f165698943)
+        ;
+
+        
+    
+    
+            var marker_2de6281756da131b6afe8c310505191c = L.marker(
+                [40.741886, -73.995632],
+                {}
+            ).addTo(feature_group_06028c9abe37f5a8f1346831f41a109f);
+        
+    
+            var icon_e8dd09464cdce8554ac0ee540c41f499 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-id-card", "iconColor": "pink", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_2de6281756da131b6afe8c310505191c.setIcon(icon_e8dd09464cdce8554ac0ee540c41f499);
+        
+    
+        var popup_82fbfdd3a700f4184b94cd04a422d5e4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d92ec209885af42ffc1551d791c970c2 = $(`<div id="html_d92ec209885af42ffc1551d791c970c2" style="width: 100.0%; height: 100.0%;">Studio TangoVida</div>`)[0];
+                popup_82fbfdd3a700f4184b94cd04a422d5e4.setContent(html_d92ec209885af42ffc1551d791c970c2);
+            
+        
+
+        marker_2de6281756da131b6afe8c310505191c.bindPopup(popup_82fbfdd3a700f4184b94cd04a422d5e4)
+        ;
+
+        
+    
+    
+            var marker_9b4d2e503568a50e5eaaea8b07708680 = L.marker(
+                [40.742853, -73.999775],
+                {}
+            ).addTo(feature_group_06028c9abe37f5a8f1346831f41a109f);
+        
+    
+            var icon_9baad112c24c713e56a8b78ddcf86577 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-id-card", "iconColor": "pink", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_9b4d2e503568a50e5eaaea8b07708680.setIcon(icon_9baad112c24c713e56a8b78ddcf86577);
+        
+    
+        var popup_ae8fbfbf0e62e1083425cced32c3446e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_32ede0c655e9f20bd8beb5da2694a367 = $(`<div id="html_32ede0c655e9f20bd8beb5da2694a367" style="width: 100.0%; height: 100.0%;">The Belmontster</div>`)[0];
+                popup_ae8fbfbf0e62e1083425cced32c3446e.setContent(html_32ede0c655e9f20bd8beb5da2694a367);
+            
+        
+
+        marker_9b4d2e503568a50e5eaaea8b07708680.bindPopup(popup_ae8fbfbf0e62e1083425cced32c3446e)
+        ;
+
+        
+    
+    
+            var marker_34cad39fc1372cce3b3bceb4fc726826 = L.marker(
+                [40.75004, -74.002688],
+                {}
+            ).addTo(feature_group_06028c9abe37f5a8f1346831f41a109f);
+        
+    
+            var icon_3e43925216a5763bccd0328687570877 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-id-card", "iconColor": "pink", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_34cad39fc1372cce3b3bceb4fc726826.setIcon(icon_3e43925216a5763bccd0328687570877);
+        
+    
+        var popup_d0257dc6ea6f0fd1e6094f594efc0c4a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d23760f1cd5bc1e8c594a3a5b869b87 = $(`<div id="html_6d23760f1cd5bc1e8c594a3a5b869b87" style="width: 100.0%; height: 100.0%;">Marquee</div>`)[0];
+                popup_d0257dc6ea6f0fd1e6094f594efc0c4a.setContent(html_6d23760f1cd5bc1e8c594a3a5b869b87);
+            
+        
+
+        marker_34cad39fc1372cce3b3bceb4fc726826.bindPopup(popup_d0257dc6ea6f0fd1e6094f594efc0c4a)
+        ;
+
+        
+    
+    
+            var marker_02882aebf257a89657bf24912e989e8f = L.marker(
+                [40.752373, -74.002859],
+                {}
+            ).addTo(feature_group_06028c9abe37f5a8f1346831f41a109f);
+        
+    
+            var icon_4a06cdd5f25085c1f986724d7f30042c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-id-card", "iconColor": "pink", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_02882aebf257a89657bf24912e989e8f.setIcon(icon_4a06cdd5f25085c1f986724d7f30042c);
+        
+    
+        var popup_4150b04d59226c726bb03356da059e33 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dfdbc9723079434c34336132865b639f = $(`<div id="html_dfdbc9723079434c34336132865b639f" style="width: 100.0%; height: 100.0%;">Provocateur</div>`)[0];
+                popup_4150b04d59226c726bb03356da059e33.setContent(html_dfdbc9723079434c34336132865b639f);
+            
+        
+
+        marker_02882aebf257a89657bf24912e989e8f.bindPopup(popup_4150b04d59226c726bb03356da059e33)
+        ;
+
+        
+    
+    
+            var marker_7f577ac26e28160be50e66e378460191 = L.marker(
+                [40.742471, -74.003909],
+                {}
+            ).addTo(feature_group_06028c9abe37f5a8f1346831f41a109f);
+        
+    
+            var icon_57a0548215cc0ba81f038e4f27086ade = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-id-card", "iconColor": "pink", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_7f577ac26e28160be50e66e378460191.setIcon(icon_57a0548215cc0ba81f038e4f27086ade);
+        
+    
+        var popup_5a799a6a4b6dddbc84fc66f9d34a2289 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a8aae08036aee51fe1b4521f4e2a0cf = $(`<div id="html_5a8aae08036aee51fe1b4521f4e2a0cf" style="width: 100.0%; height: 100.0%;">Tao Downtown</div>`)[0];
+                popup_5a799a6a4b6dddbc84fc66f9d34a2289.setContent(html_5a8aae08036aee51fe1b4521f4e2a0cf);
+            
+        
+
+        marker_7f577ac26e28160be50e66e378460191.bindPopup(popup_5a799a6a4b6dddbc84fc66f9d34a2289)
+        ;
+
+        
+    
+    
+            var marker_4d7a88aca862d2c6107ee41d9c6177df = L.marker(
+                [40.742102, -74.003589],
+                {}
+            ).addTo(feature_group_06028c9abe37f5a8f1346831f41a109f);
+        
+    
+            var icon_3d110d5d337926a9ee063c205a015b03 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-id-card", "iconColor": "pink", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_4d7a88aca862d2c6107ee41d9c6177df.setIcon(icon_3d110d5d337926a9ee063c205a015b03);
+        
+    
+        var popup_8a236e3dd83010d5fe5d183dda3aebae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ae2ab9ff2972619203b89b1a4be854a0 = $(`<div id="html_ae2ab9ff2972619203b89b1a4be854a0" style="width: 100.0%; height: 100.0%;">PHD Rooftop Lounge at Dream Downtown</div>`)[0];
+                popup_8a236e3dd83010d5fe5d183dda3aebae.setContent(html_ae2ab9ff2972619203b89b1a4be854a0);
+            
+        
+
+        marker_4d7a88aca862d2c6107ee41d9c6177df.bindPopup(popup_8a236e3dd83010d5fe5d183dda3aebae)
+        ;
+
+        
+    
+    
+            var marker_9e9b1f068cdc905d4c4b4f7ba4715000 = L.marker(
+                [40.742155, -74.003634],
+                {}
+            ).addTo(feature_group_06028c9abe37f5a8f1346831f41a109f);
+        
+    
+            var icon_5688b80c1d41209c4f6ae617abee8794 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-id-card", "iconColor": "pink", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_9e9b1f068cdc905d4c4b4f7ba4715000.setIcon(icon_5688b80c1d41209c4f6ae617abee8794);
+        
+    
+        var popup_69391fa831b32a4a5478cb224a0c76fe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_59d5fb5014630a4082d111eda71a4c51 = $(`<div id="html_59d5fb5014630a4082d111eda71a4c51" style="width: 100.0%; height: 100.0%;">Dream Downtown</div>`)[0];
+                popup_69391fa831b32a4a5478cb224a0c76fe.setContent(html_59d5fb5014630a4082d111eda71a4c51);
+            
+        
+
+        marker_9e9b1f068cdc905d4c4b4f7ba4715000.bindPopup(popup_69391fa831b32a4a5478cb224a0c76fe)
+        ;
+
+        
+    
+    
+            var marker_f4814bc4d6e09f740a530f45bf3ad8a9 = L.marker(
+                [40.74215, -74.003809],
+                {}
+            ).addTo(feature_group_06028c9abe37f5a8f1346831f41a109f);
+        
+    
+            var icon_54ba37d059fa3c88624177e352a93080 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-id-card", "iconColor": "pink", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_f4814bc4d6e09f740a530f45bf3ad8a9.setIcon(icon_54ba37d059fa3c88624177e352a93080);
+        
+    
+        var popup_e644fe7aa8e1306a0d81fd13740b2d07 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a9f267833d33cbf6139013bea5db4345 = $(`<div id="html_a9f267833d33cbf6139013bea5db4345" style="width: 100.0%; height: 100.0%;">Noir</div>`)[0];
+                popup_e644fe7aa8e1306a0d81fd13740b2d07.setContent(html_a9f267833d33cbf6139013bea5db4345);
+            
+        
+
+        marker_f4814bc4d6e09f740a530f45bf3ad8a9.bindPopup(popup_e644fe7aa8e1306a0d81fd13740b2d07)
+        ;
+
+        
+    
+    
+            var marker_5a7c592c12f75894cbf8fd6fd98e95ff = L.marker(
+                [40.755044, -74.001873],
+                {}
+            ).addTo(feature_group_06028c9abe37f5a8f1346831f41a109f);
+        
+    
+            var icon_6623da520f29bd87f56ff2c6a4a571df = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-id-card", "iconColor": "pink", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_5a7c592c12f75894cbf8fd6fd98e95ff.setIcon(icon_6623da520f29bd87f56ff2c6a4a571df);
+        
+    
+        var popup_77a1fff5a1a20f0373b4b879200b2f63 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_10eb3d0a0ad186420469c596f27a715d = $(`<div id="html_10eb3d0a0ad186420469c596f27a715d" style="width: 100.0%; height: 100.0%;">Octagon</div>`)[0];
+                popup_77a1fff5a1a20f0373b4b879200b2f63.setContent(html_10eb3d0a0ad186420469c596f27a715d);
+            
+        
+
+        marker_5a7c592c12f75894cbf8fd6fd98e95ff.bindPopup(popup_77a1fff5a1a20f0373b4b879200b2f63)
+        ;
+
+        
+    
+    
+            var marker_23045fe7502cea6a3371b5cd55db7c76 = L.marker(
+                [40.742641, -74.005575],
+                {}
+            ).addTo(feature_group_06028c9abe37f5a8f1346831f41a109f);
+        
+    
+            var icon_420f4a78a73b2dd7864fa5358b232c82 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-id-card", "iconColor": "pink", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_23045fe7502cea6a3371b5cd55db7c76.setIcon(icon_420f4a78a73b2dd7864fa5358b232c82);
+        
+    
+        var popup_dc04eddcc0043a4711c2a254aa375493 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c9d0c837128bbb9a7cb3cd2cf61fdd6f = $(`<div id="html_c9d0c837128bbb9a7cb3cd2cf61fdd6f" style="width: 100.0%; height: 100.0%;">Racket NYC</div>`)[0];
+                popup_dc04eddcc0043a4711c2a254aa375493.setContent(html_c9d0c837128bbb9a7cb3cd2cf61fdd6f);
+            
+        
+
+        marker_23045fe7502cea6a3371b5cd55db7c76.bindPopup(popup_dc04eddcc0043a4711c2a254aa375493)
+        ;
+
+        
+    
+    
+            var marker_60d142dbbf6c35850d40923fabc7829f = L.marker(
+                [40.741007, -74.004157],
+                {}
+            ).addTo(feature_group_06028c9abe37f5a8f1346831f41a109f);
+        
+    
+            var icon_9bc8e3fdd6d19b6f5766fe68eeddcea5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-id-card", "iconColor": "pink", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_60d142dbbf6c35850d40923fabc7829f.setIcon(icon_9bc8e3fdd6d19b6f5766fe68eeddcea5);
+        
+    
+        var popup_4f9c263a441566b0dda38d2c5c299d25 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f4d786ed558fe2f3be6056cf369737b = $(`<div id="html_4f4d786ed558fe2f3be6056cf369737b" style="width: 100.0%; height: 100.0%;">The Dime</div>`)[0];
+                popup_4f9c263a441566b0dda38d2c5c299d25.setContent(html_4f4d786ed558fe2f3be6056cf369737b);
+            
+        
+
+        marker_60d142dbbf6c35850d40923fabc7829f.bindPopup(popup_4f9c263a441566b0dda38d2c5c299d25)
+        ;
+
+        
+    
+    
+            var marker_96545be40cdadc81b276081b4a688509 = L.marker(
+                [40.742004, -74.005201],
+                {}
+            ).addTo(feature_group_06028c9abe37f5a8f1346831f41a109f);
+        
+    
+            var icon_672885761dd4998ed83901756aba304b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-id-card", "iconColor": "pink", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_96545be40cdadc81b276081b4a688509.setIcon(icon_672885761dd4998ed83901756aba304b);
+        
+    
+        var popup_7af3d8dd206e229c72c6c10361f1cb94 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef4f788767feeaa6679e7c1f4970dcac = $(`<div id="html_ef4f788767feeaa6679e7c1f4970dcac" style="width: 100.0%; height: 100.0%;">Chelsea Music Hall</div>`)[0];
+                popup_7af3d8dd206e229c72c6c10361f1cb94.setContent(html_ef4f788767feeaa6679e7c1f4970dcac);
+            
+        
+
+        marker_96545be40cdadc81b276081b4a688509.bindPopup(popup_7af3d8dd206e229c72c6c10361f1cb94)
+        ;
+
+        
+    
+    
+            var marker_361e7c6361d08571dc04f0febb29a46a = L.marker(
+                [40.741621, -74.005404],
+                {}
+            ).addTo(feature_group_06028c9abe37f5a8f1346831f41a109f);
+        
+    
+            var icon_da2588699b8c876d54527a2bdd5fe840 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-id-card", "iconColor": "pink", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_361e7c6361d08571dc04f0febb29a46a.setIcon(icon_da2588699b8c876d54527a2bdd5fe840);
+        
+    
+        var popup_697842311d8bcde1e19e5bc143fb89b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4e7e8c0e6fc68c6fd61166a9dd23a751 = $(`<div id="html_4e7e8c0e6fc68c6fd61166a9dd23a751" style="width: 100.0%; height: 100.0%;">NYC Nightclub VIP Pass</div>`)[0];
+                popup_697842311d8bcde1e19e5bc143fb89b7.setContent(html_4e7e8c0e6fc68c6fd61166a9dd23a751);
+            
+        
+
+        marker_361e7c6361d08571dc04f0febb29a46a.bindPopup(popup_697842311d8bcde1e19e5bc143fb89b7)
+        ;
+
+        
+    
+    
+            var marker_4f6e4e834c77c5c2555ff9ef99f0d6b7 = L.marker(
+                [40.741717, -74.005844],
+                {}
+            ).addTo(feature_group_06028c9abe37f5a8f1346831f41a109f);
+        
+    
+            var icon_70bf230732cab186514b87c4aa85f93a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-id-card", "iconColor": "pink", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_4f6e4e834c77c5c2555ff9ef99f0d6b7.setIcon(icon_70bf230732cab186514b87c4aa85f93a);
+        
+    
+        var popup_e013d1fef27165f160b403513ceebcfc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e9254756d72bd3ae1f59599e91dd8aeb = $(`<div id="html_e9254756d72bd3ae1f59599e91dd8aeb" style="width: 100.0%; height: 100.0%;">Red Rabbit Club</div>`)[0];
+                popup_e013d1fef27165f160b403513ceebcfc.setContent(html_e9254756d72bd3ae1f59599e91dd8aeb);
+            
+        
+
+        marker_4f6e4e834c77c5c2555ff9ef99f0d6b7.bindPopup(popup_e013d1fef27165f160b403513ceebcfc)
+        ;
+
+        
+    
+    
+            var feature_group_9e7c2580a8ede30a96e454ca08f31682 = L.featureGroup(
+                {}
+            ).addTo(map_06655b53bfa31182934b53553b8fed10);
+        
+    
+            var marker_54a734d432fb91203930a574fbe4caf9 = L.marker(
+                [40.745153, -73.994538],
+                {}
+            ).addTo(feature_group_9e7c2580a8ede30a96e454ca08f31682);
+        
+    
+            var icon_adf3738b3ea0caae483ae6e820ebc3cf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-cutlery", "iconColor": "white", "markerColor": "lightgreen", "prefix": "fa"}
+            );
+            marker_54a734d432fb91203930a574fbe4caf9.setIcon(icon_adf3738b3ea0caae483ae6e820ebc3cf);
+        
+    
+        var popup_f2fbfc53b0654b61161a4004dc7e525d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fcc6172d292ebe4d5673d1fbe9781b3b = $(`<div id="html_fcc6172d292ebe4d5673d1fbe9781b3b" style="width: 100.0%; height: 100.0%;">Variety Coffee Roasters</div>`)[0];
+                popup_f2fbfc53b0654b61161a4004dc7e525d.setContent(html_fcc6172d292ebe4d5673d1fbe9781b3b);
+            
+        
+
+        marker_54a734d432fb91203930a574fbe4caf9.bindPopup(popup_f2fbfc53b0654b61161a4004dc7e525d)
+        ;
+
+        
+    
+    
+            marker_54a734d432fb91203930a574fbe4caf9.bindTooltip(
+                `<div>
+                     ['vegan restaurant']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b9dcbbca07d9d6f7bc5e9b0910893276 = L.marker(
+                [40.745134, -73.995236],
+                {}
+            ).addTo(feature_group_9e7c2580a8ede30a96e454ca08f31682);
+        
+    
+            var icon_30c5a7d01df99c46902ad0a31ab7d96a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-cutlery", "iconColor": "white", "markerColor": "lightgreen", "prefix": "fa"}
+            );
+            marker_b9dcbbca07d9d6f7bc5e9b0910893276.setIcon(icon_30c5a7d01df99c46902ad0a31ab7d96a);
+        
+    
+        var popup_52a6fd8dbcf28823788388122ae25c25 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_82f7f4eb286bbf2d15360caa12e24715 = $(`<div id="html_82f7f4eb286bbf2d15360caa12e24715" style="width: 100.0%; height: 100.0%;">Whole Foods</div>`)[0];
+                popup_52a6fd8dbcf28823788388122ae25c25.setContent(html_82f7f4eb286bbf2d15360caa12e24715);
+            
+        
+
+        marker_b9dcbbca07d9d6f7bc5e9b0910893276.bindPopup(popup_52a6fd8dbcf28823788388122ae25c25)
+        ;
+
+        
+    
+    
+            marker_b9dcbbca07d9d6f7bc5e9b0910893276.bindTooltip(
+                `<div>
+                     ['vegan restaurant']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c8fc464a4bfcbd5f33bcff843d97930e = L.marker(
+                [40.750154, -73.995267],
+                {}
+            ).addTo(feature_group_9e7c2580a8ede30a96e454ca08f31682);
+        
+    
+            var icon_38eb69866808654775ecffdb172b9138 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-cutlery", "iconColor": "white", "markerColor": "lightgreen", "prefix": "fa"}
+            );
+            marker_c8fc464a4bfcbd5f33bcff843d97930e.setIcon(icon_38eb69866808654775ecffdb172b9138);
+        
+    
+        var popup_f76c7d4eefdc2a75d9bfc0c3880b2d6d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_28b1eeeb3e7b31bf20a8ad09c83a7d51 = $(`<div id="html_28b1eeeb3e7b31bf20a8ad09c83a7d51" style="width: 100.0%; height: 100.0%;">NY Pizza Suprema</div>`)[0];
+                popup_f76c7d4eefdc2a75d9bfc0c3880b2d6d.setContent(html_28b1eeeb3e7b31bf20a8ad09c83a7d51);
+            
+        
+
+        marker_c8fc464a4bfcbd5f33bcff843d97930e.bindPopup(popup_f76c7d4eefdc2a75d9bfc0c3880b2d6d)
+        ;
+
+        
+    
+    
+            marker_c8fc464a4bfcbd5f33bcff843d97930e.bindTooltip(
+                `<div>
+                     ['vegan restaurant']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7ddf9c6555784235c9fba11a255d2d33 = L.marker(
+                [40.746151, -73.997547],
+                {}
+            ).addTo(feature_group_9e7c2580a8ede30a96e454ca08f31682);
+        
+    
+            var icon_72182fa12dae75ae2bb2b9775d47acbd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-cutlery", "iconColor": "white", "markerColor": "lightgreen", "prefix": "fa"}
+            );
+            marker_7ddf9c6555784235c9fba11a255d2d33.setIcon(icon_72182fa12dae75ae2bb2b9775d47acbd);
+        
+    
+        var popup_e2166582f26b74652eb99092fcb92b93 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b3708a9e570a5807a5f3fca58c815c9a = $(`<div id="html_b3708a9e570a5807a5f3fca58c815c9a" style="width: 100.0%; height: 100.0%;">Brooklyn Bagel & Coffee Company</div>`)[0];
+                popup_e2166582f26b74652eb99092fcb92b93.setContent(html_b3708a9e570a5807a5f3fca58c815c9a);
+            
+        
+
+        marker_7ddf9c6555784235c9fba11a255d2d33.bindPopup(popup_e2166582f26b74652eb99092fcb92b93)
+        ;
+
+        
+    
+    
+            marker_7ddf9c6555784235c9fba11a255d2d33.bindTooltip(
+                `<div>
+                     ['vegan restaurant']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_01713da1111aebea908f8c835594f06f = L.marker(
+                [40.74262, -73.996447],
+                {}
+            ).addTo(feature_group_9e7c2580a8ede30a96e454ca08f31682);
+        
+    
+            var icon_cd709d41dd0d0bd7bcfa7438d8ba8a18 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-cutlery", "iconColor": "white", "markerColor": "lightgreen", "prefix": "fa"}
+            );
+            marker_01713da1111aebea908f8c835594f06f.setIcon(icon_cd709d41dd0d0bd7bcfa7438d8ba8a18);
+        
+    
+        var popup_753fb5c845644172f3663eef3839dbab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b9e959ba4b03b0a0454556bff2e0532a = $(`<div id="html_b9e959ba4b03b0a0454556bff2e0532a" style="width: 100.0%; height: 100.0%;">Momoya</div>`)[0];
+                popup_753fb5c845644172f3663eef3839dbab.setContent(html_b9e959ba4b03b0a0454556bff2e0532a);
+            
+        
+
+        marker_01713da1111aebea908f8c835594f06f.bindPopup(popup_753fb5c845644172f3663eef3839dbab)
+        ;
+
+        
+    
+    
+            marker_01713da1111aebea908f8c835594f06f.bindTooltip(
+                `<div>
+                     ['vegan restaurant']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_73239d0d048d00c4bd277ac829fb02b6 = L.marker(
+                [40.747313, -74.000432],
+                {}
+            ).addTo(feature_group_9e7c2580a8ede30a96e454ca08f31682);
+        
+    
+            var icon_ccf0e54674455946d1f8374d38bbf7fe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-cutlery", "iconColor": "white", "markerColor": "lightgreen", "prefix": "fa"}
+            );
+            marker_73239d0d048d00c4bd277ac829fb02b6.setIcon(icon_ccf0e54674455946d1f8374d38bbf7fe);
+        
+    
+        var popup_130a92fb63096c7b99efe9adc4202b02 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b7b42ae20c90cfeb4e6936b2d7ccff8e = $(`<div id="html_b7b42ae20c90cfeb4e6936b2d7ccff8e" style="width: 100.0%; height: 100.0%;">Sullivan Street Bakery</div>`)[0];
+                popup_130a92fb63096c7b99efe9adc4202b02.setContent(html_b7b42ae20c90cfeb4e6936b2d7ccff8e);
+            
+        
+
+        marker_73239d0d048d00c4bd277ac829fb02b6.bindPopup(popup_130a92fb63096c7b99efe9adc4202b02)
+        ;
+
+        
+    
+    
+            marker_73239d0d048d00c4bd277ac829fb02b6.bindTooltip(
+                `<div>
+                     ['vegan restaurant']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6c3f4e59ae999228c5e67e2d13627728 = L.marker(
+                [40.738726, -73.9928],
+                {}
+            ).addTo(feature_group_9e7c2580a8ede30a96e454ca08f31682);
+        
+    
+            var icon_8b1f9c018f5469c4836e6478fc89751e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-cutlery", "iconColor": "white", "markerColor": "lightgreen", "prefix": "fa"}
+            );
+            marker_6c3f4e59ae999228c5e67e2d13627728.setIcon(icon_8b1f9c018f5469c4836e6478fc89751e);
+        
+    
+        var popup_c271efda59a53f1cc2a28c94fabed92d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f050b8ef9a8ed75e72d21a57f802d76 = $(`<div id="html_0f050b8ef9a8ed75e72d21a57f802d76" style="width: 100.0%; height: 100.0%;">OOTOYA</div>`)[0];
+                popup_c271efda59a53f1cc2a28c94fabed92d.setContent(html_0f050b8ef9a8ed75e72d21a57f802d76);
+            
+        
+
+        marker_6c3f4e59ae999228c5e67e2d13627728.bindPopup(popup_c271efda59a53f1cc2a28c94fabed92d)
+        ;
+
+        
+    
+    
+            marker_6c3f4e59ae999228c5e67e2d13627728.bindTooltip(
+                `<div>
+                     ['vegan restaurant']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_90468f79293105aa65cda1aea1fd2fcf = L.marker(
+                [40.738782, -73.994724],
+                {}
+            ).addTo(feature_group_9e7c2580a8ede30a96e454ca08f31682);
+        
+    
+            var icon_22574b21f9a9561c560810ee878a6c4f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-cutlery", "iconColor": "white", "markerColor": "lightgreen", "prefix": "fa"}
+            );
+            marker_90468f79293105aa65cda1aea1fd2fcf.setIcon(icon_22574b21f9a9561c560810ee878a6c4f);
+        
+    
+        var popup_2c9baf0eb5b14aac254b57a9599d52fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_31c8fe0b32a09d8fa589878974ba868d = $(`<div id="html_31c8fe0b32a09d8fa589878974ba868d" style="width: 100.0%; height: 100.0%;">The Raines Law Room</div>`)[0];
+                popup_2c9baf0eb5b14aac254b57a9599d52fd.setContent(html_31c8fe0b32a09d8fa589878974ba868d);
+            
+        
+
+        marker_90468f79293105aa65cda1aea1fd2fcf.bindPopup(popup_2c9baf0eb5b14aac254b57a9599d52fd)
+        ;
+
+        
+    
+    
+            marker_90468f79293105aa65cda1aea1fd2fcf.bindTooltip(
+                `<div>
+                     ['vegan restaurant']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_996bc69c08137b700d3bb0885e81d581 = L.marker(
+                [40.740614, -74.000778],
+                {}
+            ).addTo(feature_group_9e7c2580a8ede30a96e454ca08f31682);
+        
+    
+            var icon_d3f8d15b3773aee50dda7e31b3907408 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-cutlery", "iconColor": "white", "markerColor": "lightgreen", "prefix": "fa"}
+            );
+            marker_996bc69c08137b700d3bb0885e81d581.setIcon(icon_d3f8d15b3773aee50dda7e31b3907408);
+        
+    
+        var popup_e018baaf34e1a0de90b9d275a8d689c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a44bb81036288d0403b0ad4bb2d2b06 = $(`<div id="html_6a44bb81036288d0403b0ad4bb2d2b06" style="width: 100.0%; height: 100.0%;">The Grey Dog</div>`)[0];
+                popup_e018baaf34e1a0de90b9d275a8d689c0.setContent(html_6a44bb81036288d0403b0ad4bb2d2b06);
+            
+        
+
+        marker_996bc69c08137b700d3bb0885e81d581.bindPopup(popup_e018baaf34e1a0de90b9d275a8d689c0)
+        ;
+
+        
+    
+    
+            marker_996bc69c08137b700d3bb0885e81d581.bindTooltip(
+                `<div>
+                     ['vegan restaurant']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e5b71edb5868b2fea4502804fe537c7a = L.marker(
+                [40.738122, -73.991204],
+                {}
+            ).addTo(feature_group_9e7c2580a8ede30a96e454ca08f31682);
+        
+    
+            var icon_14f510d9047b29f832ae42eb958e7f02 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-cutlery", "iconColor": "white", "markerColor": "lightgreen", "prefix": "fa"}
+            );
+            marker_e5b71edb5868b2fea4502804fe537c7a.setIcon(icon_14f510d9047b29f832ae42eb958e7f02);
+        
+    
+        var popup_a1b379f0775119c040463174fa23fa11 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f4355b2cf990989d9842c85c74b92a9f = $(`<div id="html_f4355b2cf990989d9842c85c74b92a9f" style="width: 100.0%; height: 100.0%;">Sweetgreen</div>`)[0];
+                popup_a1b379f0775119c040463174fa23fa11.setContent(html_f4355b2cf990989d9842c85c74b92a9f);
+            
+        
+
+        marker_e5b71edb5868b2fea4502804fe537c7a.bindPopup(popup_a1b379f0775119c040463174fa23fa11)
+        ;
+
+        
+    
+    
+            marker_e5b71edb5868b2fea4502804fe537c7a.bindTooltip(
+                `<div>
+                     ['vegan restaurant']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6a75eec7b948c6610a4a5ba4e4bf033d = L.marker(
+                [40.745501, -74.005557],
+                {}
+            ).addTo(feature_group_9e7c2580a8ede30a96e454ca08f31682);
+        
+    
+            var icon_56ef4ed19ea61c0e4822f83dd91a0495 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-cutlery", "iconColor": "white", "markerColor": "lightgreen", "prefix": "fa"}
+            );
+            marker_6a75eec7b948c6610a4a5ba4e4bf033d.setIcon(icon_56ef4ed19ea61c0e4822f83dd91a0495);
+        
+    
+        var popup_8142367bc5456c2073a6aaaf361a2179 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cbb7bf6a74e91a28ce52ade47a265545 = $(`<div id="html_cbb7bf6a74e91a28ce52ade47a265545" style="width: 100.0%; height: 100.0%;">Cookshop</div>`)[0];
+                popup_8142367bc5456c2073a6aaaf361a2179.setContent(html_cbb7bf6a74e91a28ce52ade47a265545);
+            
+        
+
+        marker_6a75eec7b948c6610a4a5ba4e4bf033d.bindPopup(popup_8142367bc5456c2073a6aaaf361a2179)
+        ;
+
+        
+    
+    
+            marker_6a75eec7b948c6610a4a5ba4e4bf033d.bindTooltip(
+                `<div>
+                     ['vegan restaurant']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_364c62e673a81243f29ff308008716bf = L.marker(
+                [40.742613, -74.006622],
+                {}
+            ).addTo(feature_group_9e7c2580a8ede30a96e454ca08f31682);
+        
+    
+            var icon_19bfbe5e4cd47f4fdd5caea9315186c0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-cutlery", "iconColor": "white", "markerColor": "lightgreen", "prefix": "fa"}
+            );
+            marker_364c62e673a81243f29ff308008716bf.setIcon(icon_19bfbe5e4cd47f4fdd5caea9315186c0);
+        
+    
+        var popup_f01d67025561f37b8a6ee7363220d2c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bff776778083a6a14baa418c15d34695 = $(`<div id="html_bff776778083a6a14baa418c15d34695" style="width: 100.0%; height: 100.0%;">Very Fresh Noodles</div>`)[0];
+                popup_f01d67025561f37b8a6ee7363220d2c7.setContent(html_bff776778083a6a14baa418c15d34695);
+            
+        
+
+        marker_364c62e673a81243f29ff308008716bf.bindPopup(popup_f01d67025561f37b8a6ee7363220d2c7)
+        ;
+
+        
+    
+    
+            marker_364c62e673a81243f29ff308008716bf.bindTooltip(
+                `<div>
+                     ['vegan restaurant']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e52ae08fe96e2f35e469f3ee2af7cd28 = L.marker(
+                [40.736592, -73.99193],
+                {}
+            ).addTo(feature_group_9e7c2580a8ede30a96e454ca08f31682);
+        
+    
+            var icon_1832aa99b16137725fc7baf525090ad5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-cutlery", "iconColor": "white", "markerColor": "lightgreen", "prefix": "fa"}
+            );
+            marker_e52ae08fe96e2f35e469f3ee2af7cd28.setIcon(icon_1832aa99b16137725fc7baf525090ad5);
+        
+    
+        var popup_f0e8ad75b85a3e23bd397ddd5a5f890d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a501821181974ac23dc6f72823766f87 = $(`<div id="html_a501821181974ac23dc6f72823766f87" style="width: 100.0%; height: 100.0%;">Breads Bakery</div>`)[0];
+                popup_f0e8ad75b85a3e23bd397ddd5a5f890d.setContent(html_a501821181974ac23dc6f72823766f87);
+            
+        
+
+        marker_e52ae08fe96e2f35e469f3ee2af7cd28.bindPopup(popup_f0e8ad75b85a3e23bd397ddd5a5f890d)
+        ;
+
+        
+    
+    
+            marker_e52ae08fe96e2f35e469f3ee2af7cd28.bindTooltip(
+                `<div>
+                     ['vegan restaurant']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_030e45bf22dee595e516c05214e825cb = L.marker(
+                [40.748228, -74.008461],
+                {}
+            ).addTo(feature_group_9e7c2580a8ede30a96e454ca08f31682);
+        
+    
+            var icon_defb1e33b662b212fca0ee095562cea4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-cutlery", "iconColor": "white", "markerColor": "lightgreen", "prefix": "fa"}
+            );
+            marker_030e45bf22dee595e516c05214e825cb.setIcon(icon_defb1e33b662b212fca0ee095562cea4);
+        
+    
+        var popup_e0bdf399f2aa9e989b982f25b128069b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d4e3bc6bc903849cb3ce0ed911446c62 = $(`<div id="html_d4e3bc6bc903849cb3ce0ed911446c62" style="width: 100.0%; height: 100.0%;">Bluestone Lane Chelsea Piers Café</div>`)[0];
+                popup_e0bdf399f2aa9e989b982f25b128069b.setContent(html_d4e3bc6bc903849cb3ce0ed911446c62);
+            
+        
+
+        marker_030e45bf22dee595e516c05214e825cb.bindPopup(popup_e0bdf399f2aa9e989b982f25b128069b)
+        ;
+
+        
+    
+    
+            marker_030e45bf22dee595e516c05214e825cb.bindTooltip(
+                `<div>
+                     ['vegan restaurant']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_dd6714b39cf9c8cf946a875f6be5d542 = L.circle(
+                [40.74739, -73.99325],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 750, "stroke": true, "weight": 2}
+            ).addTo(map_06655b53bfa31182934b53553b8fed10);
+        
+    
+        var popup_d1dd020b1c6bf019d06af3da36b4027d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_552f90e77294d0c33f88ac21d30b0681 = $(`<div id="html_552f90e77294d0c33f88ac21d30b0681" style="width: 100.0%; height: 100.0%;">Desired Area</div>`)[0];
+                popup_d1dd020b1c6bf019d06af3da36b4027d.setContent(html_552f90e77294d0c33f88ac21d30b0681);
+            
+        
+
+        circle_dd6714b39cf9c8cf946a875f6be5d542.bindPopup(popup_d1dd020b1c6bf019d06af3da36b4027d)
+        ;
+
+        
+    
+    
+            var layer_control_e7a2e8196e297345c0e214aa591f0eac = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_ee2dd7c1618fbe861a149fa9963b7efc,
+                },
+                overlays :  {
+                    "Starbucks" : feature_group_31f4911d9bc5b46f89cb0ac3bed40f0b,
+                    "Stadiums" : feature_group_32e078dee6b241fc7c95208919216d96,
+                    "Schools" : feature_group_d9443d6feb5a66f5b6e5a0bc906c5b43,
+                    "airports" : feature_group_4991620d665541a31adac51f8f71d987,
+                    "train stations" : feature_group_a10dbfe663f2a1b4b127853362d74248,
+                    "pet grooming" : feature_group_8c61eb36513bd0af15a5da779770cec3,
+                    "dog parks" : feature_group_9b1edf3c2fbe75c2fd19b560be0b52a7,
+                    "night clubs" : feature_group_06028c9abe37f5a8f1346831f41a109f,
+                    "vegan restaurants" : feature_group_9e7c2580a8ede30a96e454ca08f31682,
+                },
+            };
+            L.control.layers(
+                layer_control_e7a2e8196e297345c0e214aa591f0eac.base_layers,
+                layer_control_e7a2e8196e297345c0e214aa591f0eac.overlays,
+                {"autoZIndex": true, "collapsed": false, "position": "topright"}
+            ).addTo(map_06655b53bfa31182934b53553b8fed10);
+        
+</script>
+</html>
