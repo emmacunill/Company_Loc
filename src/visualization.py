@@ -186,7 +186,7 @@ def heat_map(name,loc,neigh_geojson, starbucks_df,stadium_df, schools_df, airpor
 
         HeatMap(vegan_vegetarian_coords).add_to(heatmap)
     
-        heatmap.save(f"../figures/heatmap{name}.html")
+        heatmap.save(f"figures/heatmap{name}.html")
 
         return heatmap
     
@@ -226,7 +226,7 @@ def travel(map_name, loc, geojson_data, airports_df, train_stations_df):
                           icon=folium.Icon(icon='fa-train', prefix='fa',color='white', icon_color='black'),
                           popup=row['name']).add_to(map) 
 
-    map.save(f"../figures/heatmap{map_name}.html")
+    map.save(f"figures/{map_name}.html")
 
     return map
 
@@ -363,7 +363,7 @@ def NY_complete(map_name, loc, geojson_data, starbucks_df,stadium_df, schools_df
     
     
     folium.LayerControl(collapsed=False).add_to(map)
-    map.save(f"../figures/heatmap{map_name}.html")
+    map.save(f"figures/{map_name}.html")
 
     return map
 
@@ -518,7 +518,7 @@ def chelsea_select(geojson_data, map_name,starbucks_df, stadium_df, schools_df, 
     
     folium.Circle(location=[40.74739,-73.99325], fill_color='purple', radius=750, weight=2, color='purple', popup='Desired Area').add_to(map)
     folium.LayerControl(collapsed=False).add_to(map)
-    map.save(f"../figures/heatmap{map_name}.html")
+    map.save(f"figures/{map_name}.html")
 
     return map
 
