@@ -186,7 +186,7 @@ def heat_map(name,loc,neigh_geojson, starbucks_df,stadium_df, schools_df, airpor
 
         HeatMap(vegan_vegetarian_coords).add_to(heatmap)
     
-        heatmap.save(f"figures/heatmap{name}.html")
+        heatmap_save = heatmap.save(f"figures/heatmap{name}.html")
 
         return heatmap
     
@@ -226,7 +226,7 @@ def travel(map_name, loc, geojson_data, airports_df, train_stations_df):
                           icon=folium.Icon(icon='fa-train', prefix='fa',color='white', icon_color='black'),
                           popup=row['name']).add_to(map) 
 
-    map.save(f"figures/{map_name}.html")
+    map.save(f"./figures/{map_name}.html")
 
     return map
 
