@@ -93,6 +93,8 @@ Considering the abundance of accessible airports, efficient public transport, an
 
 To narrow down the ideal neighborhood within Manhattan, a geojson to restrict the display of markers to the NYC borders was used. Then various categories to determine the best neighborhoods for specific needs were analyzed.
 
+![image](https://github.com/emmacunill/Company_Loc/blob/main/images/Captura%20de%20pantalla%202023-11-05%20a%20las%2021.11.43.png?raw=true)
+
 ## Requirements for Various Categories
 
 For different requirements, the following neighborhoods emerged as optimal choices:
