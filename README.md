@@ -1,7 +1,5 @@
 # LocationLogic: Data-Driven Decision Making for Your Dream Business Location
 
-say that I get the base data from a  ongo collection and from that the project is created
-
 ## Overview
 
 This repository is a tool designed to help you find the ideal location for your company, with a focus on meeting the requirements of employees. With a bit of creativity and data-driven decision-making, you can confidently select the perfect place to set up shop. The following README will guide you through the process and decisions made using heat maps, data analysis, and a touch of creativity.
